@@ -80,14 +80,14 @@ analytics:
 
 # Site Author
 author:
-  name             : "Zhao Pengcheng"
+  name             : "Dr. Zhao Pengcheng"
   avatar           : "photo1.jpg"
-  bio              : "Email: zhaopc@buaa.edu.cn"
+  bio              : "Beihang University(BUAA)"
   location         : "Hong Kong"
   employer         :
   pubmed           : #"https://www.ncbi.nlm.nih.gov/pubmed/?term=john+snow"
   googlescholar    : "https://scholar.google.com.hk/citations?user=tUOE-8IAAAAJ&hl=zh-CN"
-  email            :
+  email            : 'zhaopc@buaa.edu.cn'
   researchgate     :  "https://www.researchgate.net/profile/Pengcheng-Zhao"
   uri              :
   bitbucket        :
