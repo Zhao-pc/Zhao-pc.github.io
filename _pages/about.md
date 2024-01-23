@@ -10,4 +10,4 @@ redirect_from:
 
 I am currently a postdoctoral fellow at the Hong Kong Polytechnic University (PolyU). My research interests focus on laser spectroscopy, ﬁber-optic sensors and devices. I’ve participated in 4 research grants, published 10 peer-reviewed papers such as Nature Comm., Laser Photonics Rev., and Opt. Lett., and co-authored 3 national patents. Throughout my academic career, I was the recipient of numerous national scholarships and awards, including "China’s Top 10 Optical Breakthrough in 2020".
 
-You can find my CV here: [XX's Curriculum Vitae](../files/Zhao_Pengcheng_CV_en.pdf). 
+You can find my CV here: [Zhao Pengcheng's Curriculum Vitae](../files/Zhao_Pengcheng_CV_en.pdf). 
