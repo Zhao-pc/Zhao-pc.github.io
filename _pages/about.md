@@ -15,8 +15,14 @@ My research interests mainly focus on laser spectroscopy, ﬁber-optic sensors a
 You can find my CV here: [Zhao Pengcheng's Curriculum Vitae](../files/Zhao_Pengcheng_CV_en.pdf). 
 
 News
----
-Dec 22,2023, Dr. Zhao Pengcheng's thesis was awarded 'Outstanding Doctoral Dissertation Award of Beijing in 2023'.
-May 04, 2023, Dr. Zhao Pengcheng's thesis was awarded 'The Best Doctoral Thesis Award of BUAA in 2023'.
-Oct. 11, 2022, Dr. Zhao Pengcheng's thesis was awarded The Nomination Award of 'The Best Doctoral Thesis Award of CSAA'.
-Apr. 27, 2021, Our NC paper was awarded 'China’s Top 10 Optical Breakthroughs in 2020'.
+Education
+======
+* 2023
+  * Dec 22,2023, Dr. Zhao Pengcheng's thesis was awarded 'Outstanding Doctoral Dissertation Award of Beijing in 2023'.
+  * May 04, 2023, Dr. Zhao Pengcheng's thesis was awarded 'The Best Doctoral Thesis Award of BUAA in 2023'.
+    
+* 2022
+  * Oct. 11, 2022, Dr. Zhao Pengcheng's thesis was awarded The Nomination Award of 'The Best Doctoral Thesis Award of CSAA'.
+ 
+* 2021
+  * Apr. 27, 2021, Our NC paper was awarded 'China’s Top 10 Optical Breakthroughs in 2020'.
