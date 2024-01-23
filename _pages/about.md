@@ -16,7 +16,6 @@ You can find my [CV](../files/Zhao_Pengcheng_CV_en.pdf) and my [Publications](..
 ]
 
 News
-Education
 ======
 * 2023
   * Dec 22,2023, Dr. Zhao Pengcheng's thesis was awarded 'Outstanding Doctoral Dissertation Award of Beijing in 2023'.
