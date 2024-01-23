@@ -14,4 +14,4 @@ You can find my CV here: [Zhao Pengcheng's Curriculum Vitae](../files/Zhao_Pengc
 
 News
 ---
-Dr. Zhao Pengcheng's thesis was awarded 'Outstanding Doctoral Dissertation Award of Beijing in 2023'.
+Dec. 22,2023, Dr. Zhao Pengcheng's thesis was awarded 'Outstanding Doctoral Dissertation Award of Beijing in 2023'.
