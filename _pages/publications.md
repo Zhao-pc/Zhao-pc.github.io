@@ -6,9 +6,9 @@ author_profile: true
 ---
 You can find my [Publications](../files/List_of_publications.pdf) (up to 01/2024) and [Google Scholar](https://scholar.google.com.hk/citations?user=tUOE-8IAAAAJ&hl=zh-CN) here. 
 
-======
 
 Journal Articles (Selected)
+---
 
 * P. Zhao†, K. V. Krishnaiah†, L. Guo, et al., “Ultraminiature optical ﬁber-tip 3d-microprinted photothermal interferometric gas sensors,” Laser & Photonics Reviews, 2024.
 * L. Guo, P. Zhao\*, H. L. Ho, et al., “Pump-probe-alternating photothermal interferometry for two-component gas sensing,” Optics Letters, Vol. 48, no. 24, pp. 6440-6443, 2023.
@@ -18,6 +18,7 @@ Journal Articles (Selected)
 * P. Zhao, Y. Zhao, H. Bao, et al., “Mode-phase-diﬀerence photothermal spectroscopy for gas detection with an anti-resonant hollow-core optical ﬁber,” Nature communications, vol. 11, no. 1, pp. 1–8, 2020.
 
 Conference Proceedings
+---
 
 * L. Guo, P. Zhao\*, H. L. Ho, et al., “Two-component photothermal gas sensor with a pump-probe-alternating technique,” in Optical Fiber Sensors, Optica Publishing Group, 2023.
 * P. Zhao†, K. V. Krishnaiah†, L. Guo, et al., “High-sensitivity ﬁber-tip photothermal gas sensor based on a 3d µ-printed fabry-pérot microcavity,” in Optical Fiber Sensors, Optica Publishing Group, 2023.
