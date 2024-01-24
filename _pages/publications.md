@@ -14,7 +14,7 @@ Journal Articles (Selected)
 * P. Zhao\*, H. L. Ho, S. Fan, and W. Jin\*, “Evanescent wave lab-on-ﬁber for high sensitivity gas spectroscopy with wide dynamic range and long-term stability,” Laser & Photonics Reviews, p. 2200972, 2023.
 * P. Zhao, H. L. Ho, W. Jin\*, S. Fan\*, S. Gao, and Y. Wang, “Hollow-core ﬁber photothermal methane sensor with temperature compensation,” Optics Letters, vol. 46, no. 11, pp. 2762–2765, 2021.
 * P. Zhao, H. L. Ho, W. Jin\*, et al., “Gas sensing with mode-phase-diﬀerence photothermal spectroscopy assisted by a long period grating in a dual-mode negative-curvature hollow-core optical ﬁber,” Optics Letters, vol. 45, no. 20, pp. 5660–5663, 2020.
-*  P. Zhao, Y. Zhao, H. Bao, et al., “Mode-phase-diﬀerence photothermal spectroscopy for gas detection with an anti-resonant hollow-core optical ﬁber,” Nature communications, vol. 11, no. 1, pp. 1–8, 2020.
+* P. Zhao, Y. Zhao, H. Bao, et al., “Mode-phase-diﬀerence photothermal spectroscopy for gas detection with an anti-resonant hollow-core optical ﬁber,” Nature communications, vol. 11, no. 1, pp. 1–8, 2020.
 
 Conference Proceedings
 
