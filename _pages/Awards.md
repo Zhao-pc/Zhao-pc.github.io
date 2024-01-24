@@ -1,13 +1,13 @@
 ---
 layout: archive
 title: "Award"
-permalink: /cv/
+permalink: /Awards/
 author_profile: true
 redirect_from:
   - /resume
 ---
 
-{% include base_path %}
+
 2023
 ---
 * Outstanding Doctoral Dissertation Award of Beijing, Beijing Municipal Commission of Education
