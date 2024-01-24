@@ -1,6 +1,6 @@
 ---
 layout: archive
-title: "Acknowledgement"
+title: "致谢"
 permalink: /Acknowledgement/
 author_profile: true
 ---
