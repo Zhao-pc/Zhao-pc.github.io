@@ -11,7 +11,7 @@ redirect_from:
 2023
 ---
 * Outstanding Doctoral Dissertation Award of Beijing, Beijing Municipal Commission of Education
-* The Best Doctoral Thesis Award of BUAA, Beihang University
+* The Best Doctoral Thesis Award of Beihang University, Beihang University
   
 2022
 ---  
