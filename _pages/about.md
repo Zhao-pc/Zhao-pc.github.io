@@ -8,7 +8,7 @@ redirect_from:
   - /about.html
 ---
 
-I am Zhao Pengcheng (赵鹏程), currently a Postdoctoral Fellow at the Hong Kong Polytechnic University (PolyU). I received my Ph.D. in Engineering from Beihang University (BUAA) in 2022 and and B.S. in Engineering from Jilin University(JLU) in 2015. Throughout my academic career, I was the recipient of numerous national scholarships and awards, including "China’s Top 10 Optical Breakthrough in 2020".
+I am Zhao Pengcheng (赵鹏程), currently a Postdoctoral Fellow at the Hong Kong Polytechnic University (PolyU). I received my Ph.D. in Engineering from Beihang University (BUAA) in 2022 and and B.S. in Engineering from Jilin University (JLU) in 2015. Throughout my academic career, I was the recipient of numerous national scholarships and awards, including "China’s Top 10 Optical Breakthrough in 2020".
 
 My research interests mainly focus on laser spectroscopy, ﬁber-optic sensors and devices. I’ve participated in 4 research grants, published 10 peer-reviewed papers such as Nature Communications, Laser & Photonics Reviews, and Optics Letters, and co-authored 3 national patents. 
 
