@@ -2,7 +2,7 @@
 title: "微结构光纤气体传感器"
 collection: teaching
 type: "Undergraduate course"
-permalink: /teaching/2020-spring-teaching-1
+permalink: /teaching/2014-spring-teaching-1
 venue: "Online, BUAA"
 date: 2023-07-27
 location: "Beijing, China"
