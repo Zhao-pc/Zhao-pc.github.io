@@ -17,11 +17,14 @@ You can find my [CV](../files/Zhao_Pengcheng_CV_en.pdf) and [Publications](../fi
 News
 ======
 * 2023
-  * 12/2023, Dr. Zhao Pengcheng's thesis 《Investigation on fiber-optic photothermal interferometry  for high sensitivity gas detection》《高灵敏激光光热干涉光纤气体传感方法及实验研究》was awarded 'Outstanding Doctoral Dissertation Award of Beijing in 2023'.
-  * 04/2023, Dr. Zhao Pengcheng's thesis was awarded 'The Best Doctoral Thesis Award of BUAA in 2023'.
+  * 12/2023, my Ph.D. thesis was awarded 'Outstanding Doctoral Dissertation Award of Beijing in 2023'.
+  * 04/2023, my Ph.D. thesis was awarded 'The Best Doctoral Thesis Award of BUAA in 2023'.
     
 * 2022
-  * 08/2022, Dr. Zhao Pengcheng's thesis was awarded The Nomination Award of 'The Best Doctoral Thesis Award of CSAA'.
+  * 08/2022, my Ph.D. thesis was awarded The Nomination Award of 'The Best Doctoral Thesis Award of CSAA'.
+    
+*2021 
+  *12/2021, I have successfully defended my Ph.D. thesis 《Investigation on fiber-optic photothermal interferometry  for high sensitivity gas detection》《高灵敏激光光热干涉光纤气体传感方法及实验研究》.
 
 Publications
 ======
