@@ -16,7 +16,7 @@ redirect_from:
 2022
 ---  
 * The Best Doctoral Thesis Award of CSAA, The Nomination Award, Chinese Society of Aeronautics and Astronautics
-* 
+ 
 2021
 ---  
 * China’s Top 10 Optical Breakthroughs, Chinese Laser Press
