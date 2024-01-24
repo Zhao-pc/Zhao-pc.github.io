@@ -7,7 +7,7 @@
 
 # Site Settings
 locale                   : "en-US"
-title                    : "Zhao Pengcheng's Lab"
+title                    : "Zhao Lab"
 title_separator          : "-"
 name                     : &name "Zhao Pengcheng"
 description              : &description "personal description"
