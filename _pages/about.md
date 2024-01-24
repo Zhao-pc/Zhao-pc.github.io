@@ -24,7 +24,7 @@ News
   * 08/2022, my Ph.D. thesis was awarded The Nomination Award of 'The Best Doctoral Thesis Award of CSAA'.
     
 *2021 
-  *12/2021, I have successfully defended my Ph.D. thesis 《Investigation on fiber-optic photothermal interferometry  for high sensitivity gas detection》《高灵敏激光光热干涉光纤气体传感方法及实验研究》.
+  *12/2021, I have successfully defended my Ph.D. thesis 《Investigation on fiber-optic photothermal interferometry for high sensitivity gas detection》《高灵敏激光光热干涉光纤气体传感方法及实验研究》.
 
 Publications
 ======
