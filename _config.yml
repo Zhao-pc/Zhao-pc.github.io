@@ -9,7 +9,7 @@
 locale                   : "en-US"
 title                    : "Zhao Lab"
 title_separator          : "-"
-name                     : &name "Zhao Pengcheng"
+name                     : &name "Zhao"
 description              : &description "personal description"
 url                      : https://Zhao-pc.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
