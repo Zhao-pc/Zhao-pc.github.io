@@ -1,6 +1,6 @@
 ---
 layout: archive
-title: "CV"
+title: "Award"
 permalink: /cv/
 author_profile: true
 redirect_from:
@@ -8,52 +8,29 @@ redirect_from:
 ---
 
 {% include base_path %}
-
-Education
-======
-* B.S. in GitHub, GitHub University, 2012
-* M.S. in Jekyll, GitHub University, 2014
-* Ph.D in Version Control Theory, GitHub University, 2018 (expected)
-
-Work experience
-======
-* Summer 2015: Research Assistant
-  * Github University
-  * Duties included: Tagging issues
-  * Supervisor: Professor Git
-
-* Fall 2015: Research Assistant
-  * Github University
-  * Duties included: Merging pull requests
-  * Supervisor: Professor Hub
+2023
+---
+* Outstanding Doctoral Dissertation Award of Beijing, Beijing Municipal Commission of Education
+* The Best Doctoral Thesis Award of BUAA, Beihang University
   
-Skills
-======
-* Skill 1
-* Skill 2
-  * Sub-skill 2.1
-  * Sub-skill 2.2
-  * Sub-skill 2.3
-* Skill 3
-
-Publications
-======
-  <ul>{% for post in site.publications %}
-    {% include archive-single-cv.html %}
-  {% endfor %}</ul>
+2022
+---  
+* The Best Doctoral Thesis Award of CSAA, The Nomination Award, Chinese Society of Aeronautics and Astronautics
+* 
+2021
+---  
+* China’s Top 10 Optical Breakthroughs, Chinese Laser Press
+* Top 10 Outstanding Graduate Students, Beihang University
+* Top 10 Outstanding Paper Award, Beihang University
+* CASC Scholarship, China Aerospace Science and Technology Corporation
   
-Talks
-======
-  <ul>{% for post in site.talks %}
-    {% include archive-single-talk-cv.html %}
-  {% endfor %}</ul>
+2020
+--- 
+* National scholarship for postgraduate student, Ministry of Education and Finance of the People’s Republic of China
+* First prize for "Tanghui Electronics" inspirational scholarship, China Instrument and Control Society
+* Merit Student, Beihang University
+* Second prize for AVIC scholarship, Aviation Industry Corporation of China
   
-Teaching
-======
-  <ul>{% for post in site.teaching %}
-    {% include archive-single-cv.html %}
-  {% endfor %}</ul>
-  
-Service and leadership
-======
-* Currently signed in to 43 different slack teams
+2018
+---  
+* First prize for China Innovation & Entrepreneurship International Competition, China Instrument and Control Society
