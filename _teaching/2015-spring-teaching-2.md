@@ -3,9 +3,9 @@ title: "Laser Photothermal Interferometric Fiber-optic Gas Sensing Technology æ¿
 collection: teaching
 type: "Undergraduate course"
 permalink: /teaching/2015-spring-teaching-1
-venue: "Online course, BUAA"
+venue: "Online course"
 date: 2024-01-25
-location: "BUAA, Beijing"
+location: "Beijing, China"
 ---
 Sensors are the source of information technology and play a crucial role in various fields such as aerospace, petrochemicals, vehicles and ships, energy and power, food and environmental protection, medical health, metrology, and testing. They are a key high-tech area in which developed countries are actively competing to advance. Mastering sensor technology and its rational use are fundamental skills for professionals in the field of science and technology.
 
