@@ -17,7 +17,7 @@ My research interests mainly focus on laser spectroscopy, ﬁber-optic sensors a
 ![avatar](/images/gassensor.jpg)
 
 <center class="half">
-  <img src="/images/MPDPTS.jpg" width="350" height="300"><img src="/images/Pubs.png" width="350" height="300">
+  <img src="/images/MPDPTS.jpg" width="350"><img src="/images/Pubs.png" width="350">
 </center>
 
 
