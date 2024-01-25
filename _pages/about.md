@@ -7,6 +7,7 @@ redirect_from:
   - /about/
   - /about.html
 ---
+![avatar](/images/十大进展_赵鹏程_高寿飞_范滇元院士合照.jpg)
 
 I am Zhao Pengcheng (赵鹏程), currently a Postdoctoral Fellow at the Hong Kong Polytechnic University (PolyU), in collaboration with Prof. Jin Wei and Prof. Zhang Aping. I received my Ph.D. in Engineering from Beihang University (BUAA) in 2022 and and B.S. in Engineering from Jilin University (JLU) in 2015. Throughout my academic career, I was the recipient of numerous national scholarships and awards, including "_China’s Top 10 Optical Breakthrough in 2020_".
 
@@ -14,4 +15,4 @@ My research interests mainly focus on laser spectroscopy, ﬁber-optic sensors a
 
 You can find my [CV](../files/Zhao_Pengcheng_CV_en.pdf) and [Publications](../files/List_of_publications.pdf) up to 01/2024 here.
 
-![avatar](/images/十大进展_赵鹏程_高寿飞_范滇元院士合照.jpg)
+
