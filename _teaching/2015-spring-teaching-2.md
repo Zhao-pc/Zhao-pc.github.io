@@ -3,7 +3,7 @@ title: "Laser Photothermal Interferometric Fiber-optic Gas Sensing Technology æ¿
 collection: teaching
 type: "Undergraduate course"
 permalink: /teaching/2015-spring-teaching-1
-venue: "Online course"
+venue: "Online course, BUAA"
 date: 2024-01-25
 location: "BUAA, Beijing"
 ---
