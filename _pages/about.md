@@ -16,7 +16,7 @@ My research interests mainly focus on laser spectroscopy, ﬁber-optic sensors a
 
 ![avatar](/images/gassensor.jpg)
 
-<img src="/images/MPDPTS.jpg" width="500" height="380"><img src="/images/Pubs.png" width="500" height="400">
+<img src="/images/MPDPTS.jpg" width="500" height="400"><img src="/images/Pubs.png" width="500" height="400">
 
 
 You can find my [CV](../files/Zhao_Pengcheng_CV_en.pdf) and [Publications](../files/List_of_publications.pdf) up to 01/2024 here.
