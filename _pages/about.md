@@ -13,34 +13,3 @@ I am Zhao Pengcheng (赵鹏程), currently a Postdoctoral Fellow at the Hong Kon
 My research interests mainly focus on laser spectroscopy, ﬁber-optic sensors and devices. I’ve participated in 4 research grants, published 10 peer-reviewed papers such as _Nature Communications_, _Laser & Photonics Reviews_, and _Optics Letters_, and co-authored 3 national patents. If you are interested，please feel free to contact me via [Email](mailto:zhaopc@buaa.edu.cn).
 
 You can find my [CV](../files/Zhao_Pengcheng_CV_en.pdf) and [Publications](../files/List_of_publications.pdf) up to 01/2024 here.
-
-News
-======
-* 2023
-  * 12/2023, my Ph.D. thesis was awarded 'Outstanding Doctoral Dissertation Award of Beijing in 2023'.
-  * 04/2023, my Ph.D. thesis was awarded 'The Best Doctoral Thesis Award of BUAA in 2023'.
-    
-* 2022
-  * 08/2022, my Ph.D. thesis was awarded The Nomination Award of 'The Best Doctoral Thesis Award of CSAA'.
-  
-* 2021 
-  * 12/2021, I have successfully defended my Ph.D. thesis 《Investigation on fiber-optic photothermal interferometry for high sensitivity gas detection》《高灵敏激光光热干涉光纤气体传感方法及实验研究》.
-
-Publications
-======
-Journal Articles (Selected)
-
-* <ins>P. Zhao</ins>†, K. V. Krishnaiah†, L. Guo, et al., “Ultraminiature optical ﬁber-tip 3d-microprinted photothermal interferometric gas sensors,” _Laser & Photonics Reviews_, 2024.
-* L. Guo, <ins>P. Zhao</ins>\*, H. L. Ho, et al., “Pump-probe-alternating photothermal interferometry for two-component gas sensing,” [_Optics Letters_](https://opg.optica.org/ol/fulltext.cfm?uri=ol-48-24-6440&id=544225), Vol. 48, no. 24, pp. 6440-6443, 2023.
-* <ins>P. Zhao</ins>\*, H. L. Ho, S. Fan, and W. Jin\*, “Evanescent wave lab-on-ﬁber for high sensitivity gas spectroscopy with wide dynamic range and long-term stability,” [_Laser & Photonics Reviews_](https://onlinelibrary.wiley.com/doi/full/10.1002/lpor.202200972), p. 2200972, 2023.
-* <ins>P. Zhao</ins>, H. L. Ho, W. Jin\*, S. Fan\*, S. Gao, and Y. Wang, “Hollow-core ﬁber photothermal methane sensor with temperature compensation,” [_Optics Letters_](https://www.osapublishing.org/ol/abstract.cfm?uri=ol-46-11-2762), vol. 46, no. 11, pp. 2762–2765, 2021.
-* <ins>P. Zhao</ins>, H. L. Ho, W. Jin\*, et al., “Gas sensing with mode-phase-diﬀerence photothermal spectroscopy assisted by a long period grating in a dual-mode negative-curvature hollow-core optical ﬁber,” [_Optics Letters_](https://www.osapublishing.org/ol/abstract.cfm?uri=ol-45-20-5660), vol. 45, no. 20, pp. 5660–5663, 2020.
-*  <ins>P. Zhao</ins>, Y. Zhao, H. Bao, et al., “Mode-phase-diﬀerence photothermal spectroscopy for gas detection with an anti-resonant hollow-core optical ﬁber,” [_Nature communications_](https://www.nature.com/articles/s41467-020-14707-0), vol. 11, no. 1, pp. 1–8, 2020.
-
-Conference Proceedings
-
-* L. Guo, <ins>P. Zhao</ins>\*, H. L. Ho, et al., “Two-component photothermal gas sensor with a pump-probe-alternating technique,” in _Optical Fiber Sensors_, Optica Publishing Group, 2023, Tu3.16.
-* <ins>P. Zhao</ins>†, K. V. Krishnaiah†, L. Guo, et al., “High-sensitivity ﬁber-tip photothermal gas sensor based on a 3d µ-printed fabry-pérot microcavity,” in _Optical Fiber Sensors_, Optica Publishing Group, 2023, Th5.2.
-* <ins>P. Zhao</ins>, S. Fan, H. L. Ho, and W. Jin*, “Microﬁber evanescent-wave photothermal methane sensor with sub-ppm sensitivity,” in [_Optical Fiber Sensors_](https://opg.optica.org/abstract.cfm?uri=OFS-2022-Th3.5), Optica Publishing Group, 2022, Th3–5.
-* <ins>P. Zhao</ins>\*, H. L. Ho, W. Jin, et al., “Lp01-lp11 mode conversion in a negative curvature hollow-core ﬁber by use of a long-period grating,” in [_Asia Communications and Photonics Conference_](https://www.osapublishing.org/abstract.cfm?uri=ACPC-2020-M4A.118), Optica Publishing Group, 2020, M4A–118.
-* <ins>P. Zhao</ins>\*, Y. Zhao, H. Bao, et al., “Ultrasensitive photothermal gas sensor with a dual-mode anti-resonant hollow-core ﬁber,” in [_Optical Fiber Sensors_](https://www.osapublishing.org/abstract.cfm?uri=OFS-2020-W3.7), Optica Publishing Group, 2020, W3–7.
