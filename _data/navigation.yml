@@ -4,7 +4,7 @@ main:
     url: 
         
   - title: "News"
-    url: /year-archive/
+    url: /News/
     
   - title: "Publications"
     url: /publications/
