@@ -14,7 +14,7 @@ I am Zhao Pengcheng (赵鹏程), currently a Postdoctoral Fellow at the Hong Kon
 
 My research interests mainly focus on laser spectroscopy, ﬁber-optic sensors and devices. I’ve participated in 4 research grants, published 10 peer-reviewed papers such as _Nature Communications_, _Laser & Photonics Reviews_, and _Optics Letters_, and co-authored 3 national patents. If you are interested, please feel free to contact me via [Email](mailto:zhaopc@buaa.edu.cn).
 
-<img src="/images/gassensor.jpg" width="1000" height="450">
+<img src="/images/gassensor.jpg" width="800" height="450">
 
  <img src="/images/MPDPTS.jpg" width="500" height="400"><img src="/images/Pubs.png" width="500" height="400">
 
