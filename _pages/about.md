@@ -15,4 +15,3 @@ My research interests mainly focus on laser spectroscopy, ﬁber-optic sensors a
 You can find my [CV](../files/Zhao_Pengcheng_CV_en.pdf) and [Publications](../files/List_of_publications.pdf) up to 01/2024 here.
 
 ![avatar](/images/十大进展_赵鹏程_高寿飞_范滇元院士合照.jpg)
-![avatar](/images/十大进展_赵鹏程_高寿飞_祝世宁院士合照.jpg)
