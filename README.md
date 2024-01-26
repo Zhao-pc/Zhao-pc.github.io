@@ -1,6 +1,6 @@
-# Zhao Lab's Website
+# Zhao Pengcheng's Website
 
-My simple lab website is built based on the AcademicPages project. I'll try my best to keep updated.
+My simple website is built based on the AcademicPages project. I'll try my best to keep updated.
 
 Below are the original README Markdown content.
 
