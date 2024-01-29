@@ -1,2 +1,4 @@
-/*
-  Access-Control-Allow-Origin: https://pczhao.cn
+GET /cors HTTP/1.1
+Origin: https://pczhao.cn
+Accept-Language: en-US
+Connection: keep-alive
