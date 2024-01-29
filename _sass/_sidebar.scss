@@ -258,8 +258,10 @@
 
 .news > p {
   font-family: -apple-system, system-ui, BlinkMacSystemFont;
+  font-size: $type-size-5;
 }
 
 .sidebar p {
-  font-family: -apple-system, system-ui, BlinkMacSystemFont;
+   font-family: -apple-system, system-ui, BlinkMacSystemFont;
+   font-size: $type-size-5;
 }
