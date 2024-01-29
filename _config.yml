@@ -13,7 +13,7 @@ name                     : &name "Zhao Pengcheng"
 description              : &description "Zhao Pengcheng / 赵鹏程"
 url                      : https://Zhao-pc.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
-repository               : "Zhao-pc/Zhao-pc.github.io"
+repository               : "https://Zhao-pc/Zhao-pc.github.io"
 teaser                   :  # filename of teaser fallback teaser image placed in /images/, .e.g. "500x300.png"
 breadcrumbs              : false # true, false (default)
 words_per_minute         : 160
