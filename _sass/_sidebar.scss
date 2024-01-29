@@ -236,11 +236,30 @@
   }
    
 /*          News             */
+.author__urls_sm {
+  padding: 0.25em;
+  font-size: 1.75em;
+  display: block;
+  a {
+    color: inherit;
+    text-decoration: none;
+    &:hover {
+      text-decoration: underline;
+    }
+  }
+  @include breakpoint($large) {
+    display: none;
+  }
+}
+
 .news {
-  padding-left: 50px;
+  padding-left: 10px;
 }
 
 .news > p {
   font-family: -apple-system, system-ui, BlinkMacSystemFont;
 }
+
+.sidebar p {
+  font-family: -apple-system, system-ui, BlinkMacSystemFont;
 }
