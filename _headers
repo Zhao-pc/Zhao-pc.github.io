@@ -1,4 +1,0 @@
-GET /cors HTTP/1.1
-Origin: https://pczhao.cn
-Accept-Language: en-US
-Connection: keep-alive
