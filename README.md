@@ -4,6 +4,7 @@ My simple website is built based on the AcademicPages project. I'll try my best 
 ------------------------------------------------------------------------------------------------
 Maintenance instructions
 1. Modify the homepage sidebar news
+
    Search sidebar
 
 3. Modify News
