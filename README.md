@@ -1,7 +1,7 @@
 # Zhao Pengcheng's Website
 
 My simple website is built based on the AcademicPages project. I'll try my best to keep updated.
-------------------------------------------------
+------------------------------------------------------------------------------------------------
 Maintenance instructions
 1. Modify the homepage sidebar news
 Search sidebar
