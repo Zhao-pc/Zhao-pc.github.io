@@ -12,7 +12,7 @@ I am **Zhao Pengcheng**, currently a Postdoctoral Fellow at the Hong Kong Polyte
 
 ![avatar](/images/sdjz_zsl.jpg)
 
-My research interests mainly focus on laser spectroscopy, ﬁber-optic sensors and devices. I’ve participated in 4 research grants, published 10 peer-reviewed papers such as **_Nature Communications_**, **_Laser & Photonics Reviews_**, and **_Optics Letters_**, and co-authored 3 national patents. If you are interested, please feel free to contact me via [Email](mailto:zhaopc@buaa.edu.cn).
+My research interests mainly focus on laser spectroscopy, ﬁber-optic sensors and devices. I’ve participated in 4 research grants, published 10 peer-reviewed papers such as **_Nature Communications_**, **_Laser & Photonics Reviews_**(2023,2024), and **_Optics Letters_**, and co-authored 3 national patents. If you are interested, please feel free to contact me via [Email](mailto:zhaopc@buaa.edu.cn).
 
 ![avatar](/images/gassensor.jpg)
 
