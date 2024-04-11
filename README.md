@@ -4,36 +4,35 @@ My simple website is built based on the AcademicPages project. I'll try my best 
 ------------------------------------------------------------------------------------------------
 Maintenance instructions
 1. Modify the homepage sidebar news
-   
-Search sidebar
+   Search sidebar
 
 3. Modify News
    
-Search posts
+   Search posts
 
 5. Modify publications
 
-Search publications
+   Search publications
 
 6. Modify Talks
 
-Search _talks
+   Search _talks
 
 7. Modify teaching
 
-Search _teaching
+   Search _teaching
 
 8. Modify Awards
 
-Search Awards
+   Search Awards
 
 9. Modify personal introduction
 
-Search about.md
+   Search about.md
 
 10. Modify email
 
-search _config
+   search _config
 
 ------------------------------------------------------------------------------------------------
 Below are the original README Markdown content.
