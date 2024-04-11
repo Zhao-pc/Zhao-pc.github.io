@@ -6,7 +6,7 @@ Maintenance instructions
 1. Modify the homepage sidebar news
 Search sidebar
 
-2.Modify News
+2. Modify News
 Search posts
 
 3. Modify publications
@@ -18,7 +18,7 @@ Search _talks
 5. Modify teaching
 Search _teaching
 
-6 Modify Awards
+6. Modify Awards
 Search Awards
 
 7. Modify personal introduction
