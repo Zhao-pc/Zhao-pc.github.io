@@ -4,7 +4,7 @@ title: "Publications"
 permalink: /publications/
 author_profile: true
 ---
-You can find my [Publications](../files/List_of_publications.pdf) (up to 06/2024) and [Google Scholar](https://scholar.google.com.hk/citations?user=tUOE-8IAAAAJ&hl=zh-CN) here. 
+You can find my [Publications](../files/List of publications.pdf) (up to 06/2024) and [Google Scholar](https://scholar.google.com.hk/citations?user=tUOE-8IAAAAJ&hl=zh-CN) here. 
 
 
 Journal Articles (Selected)
