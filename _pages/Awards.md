@@ -9,7 +9,7 @@ redirect_from:
 
 2024
 ---
-Humboldt Research Fellowship for Postdocs
+* Humboldt Research Fellowship for Postdocs
 
 2023
 ---
