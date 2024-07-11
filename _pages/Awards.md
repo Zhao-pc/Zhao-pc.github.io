@@ -7,6 +7,9 @@ redirect_from:
   - /resume
 ---
 
+2024
+---
+Humboldt Research Fellowship for Postdocs
 
 2023
 ---
