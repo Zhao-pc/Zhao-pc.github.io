@@ -10,7 +10,7 @@ redirect_from:
 2024
 ---
 * Humboldt Research Fellowship for Postdocs
-* Best Oral Presentation Awards of OFS-China 2024
+* The Best Oral Presentation Awards of OFS-China 2024
 
 2023
 ---
