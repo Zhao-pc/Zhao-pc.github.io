@@ -9,7 +9,7 @@ You can find my [Publications](../files/List of publications.pdf) (up to 06/2024
 
 Journal Articles (Selected)
 ---
-
+* T. Li†, <ins>P. Zhao</ins>†, P. Wang, et al., “Miniature optical fiber photoacoustic spectroscopy gas sensor based on a 3D micro-printed planar-spiral spring optomechanical resonator,” [_Photoacoustics_]([https://www.sciencedirect.com/science/article/pii/S2213597924000740](https://www.sciencedirect.com/science/article/pii/S2213597924000740)) , p. 100657, 2024.
 * <ins>P. Zhao</ins>†, K. V. Krishnaiah†, L. Guo, et al., “Ultraminiature optical ﬁber-tip 3d-microprinted photothermal interferometric gas sensors,” [_Laser & Photonics Reviews_]([https://opg.optica.org/ol/fulltext.cfm?uri=ol-48-24-6440&id=544225](https://onlinelibrary.wiley.com/doi/full/10.1002/lpor.202301285)) , p. 2301285, 2024.
 * L. Guo, <ins>P. Zhao</ins>\*, H. L. Ho, et al., “Pump-probe-alternating photothermal interferometry for two-component gas sensing,” [_Optics Letters_](https://opg.optica.org/ol/fulltext.cfm?uri=ol-48-24-6440&id=544225), Vol. 48, no. 24, pp. 6440-6443, 2023.
 * <ins>P. Zhao</ins>\*, H. L. Ho, S. Fan, and W. Jin\*, “Evanescent wave lab-on-ﬁber for high sensitivity gas spectroscopy with wide dynamic range and long-term stability,” [_Laser & Photonics Reviews_](https://onlinelibrary.wiley.com/doi/full/10.1002/lpor.202200972), p. 2200972, 2023.
