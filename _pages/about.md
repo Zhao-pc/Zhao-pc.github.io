@@ -20,11 +20,9 @@ My research interests mainly focus on laser spectroscopy, ﬁber-optic sensors a
 ### ☆ **Microstructured Optical Fibers-Based Sensors and Devices**  
 <p style="text-align: center;">
   <img src="/images/MPDPTS.png" alt="Image 1" width="300" style="margin-right: 20px;">
-  <img src="/images/eMPDPTS.png" alt="Image 2" width="280" style="margin-left: 20px;">
-  <img src="/images/HCFLPG.png" alt="Image 3" width="350" style="margin-left: 20px;">
+  <img src="/images/eMPDPTS.png" alt="Image 2" width="300" style="margin-left: 20px;">
+  <img src="/images/HCFLPG.png" alt="Image 3" width="300" style="margin-left: 20px;">
 </p>
-
-<br>
 
 ### ☆☆ **Fiber-Tip / Ferrule-Top Sensors and Devices**  
 <p style="text-align: center;">
