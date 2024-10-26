@@ -22,7 +22,7 @@ My research interests mainly focus on laser spectroscopy, ﬁber-optic sensors a
 ### ☆ **Microstructured Optical Fibers-Based Sensors and Devices**  
 <p style="text-align: center;">
   <a href="https://www.nature.com/articles/s41467-020-14707-0" target="_blank">
-    <img src="/images/MPDPTS.png" alt="Image 1" title="Mode-phase-difference photothermal spectroscopy for gas detection with an anti-resonant hollow-core optical fiber" width="380" style="margin-right: 20px;">
+    <img src="/images/MPDPTS.png" alt="Image 1" title="Mode-phase-difference photothermal spectroscopy for gas detection with an anti-resonant hollow-core optical fiber" width="360" style="margin-right: 20px;">
   </a>
   <a href="https://onlinelibrary.wiley.com/doi/abs/10.1002/lpor.202200972" target="_blank">
     <img src="/images/eMPDPTS.png" alt="Image 2" title="Evanescent wave lab-on-ﬁber for high sensitivity gas spectroscopy with wide dynamic range and long-term stability" width="350" style="margin-left: 20px;">
