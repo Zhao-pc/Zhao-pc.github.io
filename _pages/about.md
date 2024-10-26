@@ -17,12 +17,12 @@ My research interests mainly focus on laser spectroscopy, ﬁber-optic sensors a
 1. Micro-structureed optical fiber-based sensors and devices
 
 <center class="half">
-  <img src="/images/MPDPTS.jpg" width="250"/>
+  <img src="/images/MPDPTS.png" width="250"/>   <img src="/images/eMPDPTS.png" width="250"/>  <img src="/images/HCFLPG.png" width="250"/>
 </center>
 
 2. Fiber-tip / Ferrule-top sensors and devices
 <center class="half">
-  <img src="/images/fibertipPTS.png" width="250"/><img src="/images/fibertopPAS.png" width="250"/>
+  <img src="/images/fibertipPTS.png" width="250"/> <img src="/images/fibertopPAS.png" width="250"/>
 </center>
 
 You can find my [CV](../files/Zhao_Pengcheng_CV_en.pdf) and [Publications](../files/List of publications.pdf) up to 06/2024 here.
