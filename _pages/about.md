@@ -21,18 +21,29 @@ My research interests mainly focus on laser spectroscopy, ﬁber-optic sensors a
 
 ### ☆ **Microstructured Optical Fibers-Based Sensors and Devices**  
 <p style="text-align: center;">
-  <img src="/images/MPDPTS.png" alt="Image 1" title="Microstructured Photothermal Detection" width="350" style="margin-right: 20px;">
-  <img src="/images/eMPDPTS.png" alt="Image 2" title="Enhanced MPDPTS Device" width="350" style="margin-left: 20px;">
-  <img src="/images/HCFLPG.png" alt="Image 3" title="Hollow-Core Fiber LPG Sensor" width="350" style="margin-left: 20px;">
+  <a href="https://www.nature.com/articles/s41467-020-14707-0" target="_blank">
+    <img src="/images/MPDPTS.png" alt="Image 1" title="Mode-phase-difference photothermal spectroscopy for gas detection with an anti-resonant hollow-core optical fiber" width="350" style="margin-right: 20px;">
+  </a>
+  <a href="https://onlinelibrary.wiley.com/doi/abs/10.1002/lpor.202200972" target="_blank">
+    <img src="/images/eMPDPTS.png" alt="Image 2" title="Evanescent wave lab-on-ﬁber for high sensitivity gas spectroscopy with wide dynamic range and long-term stability" width="350" style="margin-left: 20px;">
+  </a>
+  <a href="https://opg.optica.org/abstract.cfm?uri=ACPC-2020-M4A.118" target="_blank">
+    <img src="/images/HCFLPG.png" alt="Image 3" title="LP01-LP11 mode conversion in a negative curvature hollow-core fiber by use of a long-period grating" width="350" style="margin-left: 20px;">
+  </a>
 </p>
 
 <br>
 
 ### ☆☆ **Fiber-Tip / Ferrule-Top Sensors and Devices**  
 <p style="text-align: center;">
-  <img src="/images/fibertipPTS1.png" alt="Image 4" title="Fiber-Tip Photothermal Sensor" width="350" style="margin-right: 20px;">
-  <img src="/images/fibertopPAS1.png" alt="Image 5" title="Ferrule-Top Photoacoustic Sensor" width="350" style="margin-left: 20px;">
+  <a href="https://onlinelibrary.wiley.com/doi/full/10.1002/lpor.202301285" target="_blank">
+    <img src="/images/fibertipPTS1.png" alt="Image 4" title="Ultraminiature Optical Fiber-Tip 3D-Microprinted Photothermal Interferometric Gas Sensors" width="350" style="margin-right: 20px;">
+  </a>
+  <a href="https://www.sciencedirect.com/science/article/pii/S2213597924000740" target="_blank">
+    <img src="/images/fibertopPAS1.png" alt="Image 5" title="Miniature optical fiber photoacoustic spectroscopy gas sensor based on a 3D micro-printed planar-spiral spring optomechanical resonator" width="350" style="margin-left: 20px;">
+  </a>
 </p>
+
 
 ---
 
