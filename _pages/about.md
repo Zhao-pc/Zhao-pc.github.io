@@ -28,7 +28,7 @@ My research interests mainly focus on laser spectroscopy, ﬁber-optic sensors a
     <img src="/images/eMPDPTS.png" alt="Image 2" title="Evanescent wave lab-on-ﬁber for high sensitivity gas spectroscopy with wide dynamic range and long-term stability" width="350" style="margin-left: 20px;">
   </a>
   <a href="https://opg.optica.org/abstract.cfm?uri=ACPC-2020-M4A.118" target="_blank">
-    <img src="/images/HCFLPG.png" alt="Image 3" title="LP01-LP11 mode conversion in a negative curvature hollow-core fiber by use of a long-period grating" width="320" style="margin-left: 20px;">
+    <img src="/images/HCFLPG.png" alt="Image 3" title="LP01-LP11 mode conversion in a negative curvature hollow-core fiber by use of a long-period grating" width="300" style="margin-left: 20px;">
   </a>
 </p>
 
