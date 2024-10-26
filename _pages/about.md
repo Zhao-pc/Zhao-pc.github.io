@@ -26,8 +26,8 @@ My research interests mainly focus on laser spectroscopy, ﬁber-optic sensors a
 
 ### ☆☆ **Fiber-Tip / Ferrule-Top Sensors and Devices**  
 <p style="text-align: center;">
-  <img src="/images/fibertipPTS1.png" alt="Image 4" width="300" style="margin-right: 20px;">
-  <img src="/images/fibertopPAS1.png" alt="Image 5" width="300" style="margin-left: 20px;">
+  <img src="/images/fibertipPTS1.png" alt="Image 4" width="350" style="margin-right: 20px;">
+  <img src="/images/fibertopPAS1.png" alt="Image 5" width="350" style="margin-left: 20px;">
 </p>
 
 ---
