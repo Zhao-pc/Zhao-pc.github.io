@@ -14,13 +14,13 @@ I am **Zhao Pengcheng**, currently a Postdoctoral Fellow at the Hong Kong Polyte
 
 My research interests mainly focus on laser spectroscopy, ﬁber-optic sensors and devices. I’ve participated in 4 research grants, published 10 peer-reviewed papers such as **_Nature Communications_**, **_Laser & Photonics Reviews_** (2023,2024), **_Photoacoustics_** and **_Optics Letters_**, and co-authored 3 national patents. I also serve as a reviewer for international journals such as _Opt. Laser Technol._ and _Sens. Actuators, A_. If you are interested, please feel free to contact me via [Email](mailto:zhaopc@buaa.edu.cn).
 
-☆ Micro-structureed optical fiber-based sensors and devices
+☆ **Microstructured optical fibers-based sensors and devices**
 
 <center class="half">
   <img src="/images/MPDPTS.png" width="300"/>   <img src="/images/eMPDPTS.png" width="270"/>  <img src="/images/HCFLPG.png" width="250"/>
 </center>
 
-☆☆ Fiber-tip / Ferrule-top sensors and devices
+☆☆ **Fiber-tip / Ferrule-top sensors and devices**
 <center class="half">
   <img src="/images/fibertipPTS1.png" width="250"/> <img src="/images/fibertopPAS1.png" width="250"/>
 </center>
