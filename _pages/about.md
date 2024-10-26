@@ -17,7 +17,7 @@ My research interests mainly focus on laser spectroscopy, ﬁber-optic sensors a
 1. Micro-structureed optical fiber-based sensors and devices
 
 <center class="half">
-  <img src="/images/MPDPTS.png" width="300"/>   <img src="/images/eMPDPTS.png" width="250"/>  <img src="/images/HCFLPG.png" width="250"/>
+  <img src="/images/MPDPTS.png" width="300"/>   <img src="/images/eMPDPTS.png" width="270"/>  <img src="/images/HCFLPG.png" width="250"/>
 </center>
 
 2. Fiber-tip / Ferrule-top sensors and devices
