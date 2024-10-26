@@ -16,8 +16,12 @@ My research interests mainly focus on laser spectroscopy, ﬁber-optic sensors a
 
 ![avatar](/images/gassensor.jpg)
 
+
 <center class="half">
-  <img src="/images/MPDPTS.jpg" width="200"/><img src="/images/fibertipPTS.png" width="200"/><img src="/images/fibertopPAS.png" width="200"/>
+    ** Optical fiber-based sensors and devices **
+</center>
+<center class="half">
+  <img src="/images/MPDPTS.jpg" width="250"/><img src="/images/fibertipPTS.png" width="250"/><img src="/images/fibertopPAS.png" width="250"/>
 </center>
 
 
