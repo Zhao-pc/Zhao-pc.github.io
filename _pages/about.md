@@ -15,19 +15,23 @@ I am **Zhao Pengcheng**, currently a Postdoctoral Fellow at the Hong Kong Polyte
 My research interests mainly focus on laser spectroscopy, ﬁber-optic sensors and devices. I’ve participated in 4 research grants, published 10 peer-reviewed papers such as **_Nature Communications_**, **_Laser & Photonics Reviews_** (2023,2024), **_Photoacoustics_** and **_Optics Letters_**, and co-authored 3 national patents. I also serve as a reviewer for international journals such as _Opt. Laser Technol._ and _Sens. Actuators, A_. If you are interested, please feel free to contact me via [Email](mailto:zhaopc@buaa.edu.cn).
 <br>
 
+---
+
 ## **Research Highlights**  
 
 ### ☆ **Microstructured Optical Fibers-Based Sensors and Devices**  
 <p style="text-align: center;">
-  <img src="/images/MPDPTS.png" alt="Image 1" width="350" style="margin-right: 20px;">
-  <img src="/images/eMPDPTS.png" alt="Image 2" width="350" style="margin-left: 20px;">
-  <img src="/images/HCFLPG.png" alt="Image 3" width="300" style="margin-left: 20px;">
+  <img src="/images/MPDPTS.png" alt="Image 1" title="Microstructured Photothermal Detection" width="350" style="margin-right: 20px;">
+  <img src="/images/eMPDPTS.png" alt="Image 2" title="Enhanced MPDPTS Device" width="350" style="margin-left: 20px;">
+  <img src="/images/HCFLPG.png" alt="Image 3" title="Hollow-Core Fiber LPG Sensor" width="350" style="margin-left: 20px;">
 </p>
+
+<br>
 
 ### ☆☆ **Fiber-Tip / Ferrule-Top Sensors and Devices**  
 <p style="text-align: center;">
-  <img src="/images/fibertipPTS1.png" alt="Image 4" width="350" style="margin-right: 20px;">
-  <img src="/images/fibertopPAS1.png" alt="Image 5" width="350" style="margin-left: 20px;">
+  <img src="/images/fibertipPTS1.png" alt="Image 4" title="Fiber-Tip Photothermal Sensor" width="350" style="margin-right: 20px;">
+  <img src="/images/fibertopPAS1.png" alt="Image 5" title="Ferrule-Top Photoacoustic Sensor" width="350" style="margin-left: 20px;">
 </p>
 
 ---
