@@ -15,10 +15,10 @@ redirect_from:
 - **Best Doctoral Thesis Award of Beijing**, Beijing Municipal Education Commission (BMEC)  
 - **Best Doctoral Thesis Award of BUAA**, BUAA
   
-## During PhD
-
 ### 2022
 - **Nomination Award** for the **Best Doctoral Thesis** of CSAA, Chinese Society of Aeronautics and Astronautics (CSAA)
+
+## During PhD
 
 ### 2021
 - **China’s Top 10 Optical Breakthroughs**, Chinese Laser Press (CLP)  
