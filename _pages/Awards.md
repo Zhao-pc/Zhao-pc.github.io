@@ -12,11 +12,12 @@ redirect_from:
 * Humboldt Research Fellowship for Postdocs, Alexander von Humboldt-Stiftung (AvH)
 * The Best Oral Presentation Awards of OFS-China 2024, Chinese Society for Optical Engineering (CSOE)
 
+
 2023
 ---
 * Outstanding Doctoral Dissertation Award of Beijing, Beĳing Municipal Education Commission (BMEC)
 * The Best Doctoral Thesis Award of Beihang University, BUAA
-  
+----------------------- After PhD graduatoin---------------------------------------------------------------------------------  
 2022
 ---  
 * The Best Doctoral Thesis Award of CSAA, The Nomination Award, Chinese Society of Aeronautics and Astronautics (CSAA)
@@ -30,7 +31,7 @@ redirect_from:
   
 2020
 --- 
-* National scholarship for postgraduate student, Ministry of Education (China)
+* National scholarship for postgraduate student, Ministry of Education of the People's Republic of China
 * First prize for "Tanghui Electronics" inspirational scholarship, CIS
 * Merit Student, Beihang University
 * Second prize for AVIC scholarship, Aviation Industry Corporation of China (AVIC)
