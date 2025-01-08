@@ -45,4 +45,4 @@ My research interests include laser spectroscopy, fiber-optic sensors, and fiber
 
 ## **Additional Information**
 
-You can find my [CV](../files/Zhao_Pengcheng_CV_en.pdf) and [Publications](../files/List%20of%20publications.pdf) (up to 06/2024) here.
+You can find my [CV](../files/Zhao_Pengcheng_CV_en.pdf) [中文](../files/赵鹏程_中文简历.pdf)  (up to 12/2024) here.
