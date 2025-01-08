@@ -24,7 +24,7 @@ redirect_from:
 - **China’s Top 10 Optical Breakthroughs**, Chinese Laser Press (CLP)  
 - **Top 10 Outstanding Graduate Students**, BUAA  
 - **Top 10 Outstanding Paper Award**, BUAA 
-- **First Prize** for **CASC Scholarship**, China Aerospace Science and Technology Corporation (CASC)
+- **Second Prize** for **CASC Scholarship**, China Aerospace Science and Technology Corporation (CASC)
 
 ### 2020
 - **National Scholarship for Postgraduate Students**, Ministry of Education of the People's Republic of China  
