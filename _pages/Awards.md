@@ -16,7 +16,7 @@ redirect_from:
 - **Best Doctoral Thesis Award of BUAA**, BUAA
   
 ### 2022
-- **Nomination Award** for the **Best Doctoral Thesis** of CSAA, Chinese Society of Aeronautics and Astronautics (CSAA)
+- **Nomination Award** for the **Best Doctoral Thesis of CSAA**, Chinese Society of Aeronautics and Astronautics (CSAA)
 
 ## During PhD
 
