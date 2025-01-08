@@ -19,8 +19,7 @@ redirect_from:
 * The Best Doctoral Thesis Award of Beihang University, BUAA
 
   
------------------------ After PhD graduatoin---------------------------------------------------------------------------------  
-2022
+----------------------- After PhD graduatoin
 ---  
 * The Best Doctoral Thesis Award of CSAA, The Nomination Award, Chinese Society of Aeronautics and Astronautics (CSAA)
  
