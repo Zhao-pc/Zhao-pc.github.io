@@ -82,12 +82,12 @@ analytics:
 author:
   name             : "Dr. Zhao Pengcheng"
   avatar           : "profile_zpc.jpg"
-  bio              : "PolyU / BUAA / JLU"
-  location         : "Hong Kong, China"
+  bio              : "IPHT / PolyU / BUAA / JLU"
+  location         : "Jena, Germany"
   employer         :
   pubmed           : #"https://www.ncbi.nlm.nih.gov/pubmed/?term=john+snow"
   googlescholar    : "https://scholar.google.com.hk/citations?user=tUOE-8IAAAAJ&hl=zh-CN"
-  email            : 'zhaopc@buaa.edu.cn'
+  email            : 'pengcheng.zhao@leibniz-ipht.de'
   researchgate     :  "https://www.researchgate.net/profile/Pengcheng-Zhao"
   uri              :
   bitbucket        :
