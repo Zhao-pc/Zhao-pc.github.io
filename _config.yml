@@ -7,10 +7,10 @@
 
 # Site Settings
 locale                   : "en-US"
-title                    : "Zhao Pengcheng / 赵鹏程"
+title                    : "Pengcheng ZHAO / 赵鹏程"
 title_separator          : "-"
-name                     : &name "Zhao Pengcheng"
-description              : &description "Zhao Pengcheng / 赵鹏程"
+name                     : &name "Pengcheng ZHAO"
+description              : &description "Pengcheng ZHAO / 赵鹏程"
 url                      : https://Zhao-pc.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "https://Zhao-pc/Zhao-pc.github.io"
@@ -80,7 +80,7 @@ analytics:
 
 # Site Author
 author:
-  name             : "Dr. Zhao Pengcheng"
+  name             : "Dr. Pengcheng ZHAO"
   avatar           : "profile_zpc.jpg"
   bio              : "IPHT / PolyU / BUAA / JLU"
   location         : "Jena, Germany"
