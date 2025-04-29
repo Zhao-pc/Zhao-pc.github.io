@@ -6,21 +6,21 @@ main:
   - title: "News新闻"
     url: /year-archive/
     
-  - title: "Publications出版物"
+  - title: "Achievements成果"
     url: /publications/
 
   - title: "Talks报告"
     url: /talks/    
 
-  - title: "Teaching教学"
-    url: /teaching/    
+ # - title: "Teaching教学"
+  #  url: /teaching/    
 
-  - title: "Projects项目"
+  - title: "Grants项目"
     url: /Projects/    
  # - title: "Portfolio"
   #  url: /portfolio/
    
-  - title: "Awards荣誉"
+  - title: "Awards获奖"
     url: /Awards/
  
    #- title: "Guide"
