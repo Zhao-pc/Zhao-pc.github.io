@@ -9,7 +9,7 @@ You can find my full publications in [Google Scholar](https://scholar.google.com
 
 Journal Articles
 ---
-[7]  T. Li†, <ins>P. Zhao</ins>†, P. Wang, et al., “Miniature optical fiber photoacoustic spectroscopy gas sensor based on a 3D micro-printed planar-spiral spring optomechanical resonator,” [_Photoacoustics_](https://doi.org/10.1016/j.pacs.2024.100657), vol. 40,  100657, 2024.
+<em class="blue-label">[7]</em>  T. Li†, <ins>P. Zhao</ins>†, P. Wang, et al., “Miniature optical fiber photoacoustic spectroscopy gas sensor based on a 3D micro-printed planar-spiral spring optomechanical resonator,” [_Photoacoustics_](https://doi.org/10.1016/j.pacs.2024.100657), vol. 40,  100657, 2024.
 
 [6]  <ins>P. Zhao</ins>†, K. V. Krishnaiah†, L. Guo, et al., “Ultraminiature optical ﬁber-tip 3d-microprinted photothermal interferometric gas sensors,” [_Laser & Photonics Reviews_](https://onlinelibrary.wiley.com/doi/full/10.1002/lpor.202301285),  vol. 18, no. 9, 2301285, 2024.
 
