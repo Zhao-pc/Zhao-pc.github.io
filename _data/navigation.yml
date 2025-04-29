@@ -1,26 +1,26 @@
 # main links links
 main:
-  - title: "Home/首页"
+  - title: "Home首页"
     url: 
         
-  - title: "News/新闻"
+  - title: "News新闻"
     url: /year-archive/
     
-  - title: "Achievements/成果"
+  - title: "Achievements成果"
     url: /publications/
 
-  - title: "Talks/报告"
+  - title: "Talks报告"
     url: /talks/    
 
  # - title: "Teaching教学"
   #  url: /teaching/    
 
-  - title: "Grants/项目"
+  - title: "Grants项目"
     url: /Projects/    
  # - title: "Portfolio"
   #  url: /portfolio/
    
-  - title: "Awards/获奖"
+  - title: "Awards获奖"
     url: /Awards/
  
    #- title: "Guide"
