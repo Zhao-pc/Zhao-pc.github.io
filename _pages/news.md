@@ -1,7 +1,7 @@
 ---
+layout: archive
 permalink: /news/
 title: "News"
-excerpt: ""
 author_profile: true
 ---
 
