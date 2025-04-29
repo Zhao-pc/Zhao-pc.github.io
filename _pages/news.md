@@ -9,6 +9,17 @@ redirect_from:
 ---
 ### 📅 2024
 
+<div style="display: flex; align-items: center; background: #f0f0f0; padding: 10px; margin-bottom: 10px; border-radius: 4px; width: fit-content;">
+  <div style="width: 60px; text-align: center; background: #e6e6e6; margin-right: 15px; border-radius: 4px; padding: 5px 0;">
+    <div style="font-size: 18px; font-weight: bold; color: #1976d2;">24</div>
+    <div style="font-size: 12px; color: #1976d2;">2024-10</div>
+  </div>
+  <div style="font-size: 16px; color: #000;">
+    Journal Publication : *Photoacoustics* — Miniature optical fiber photoacoustic spectroscopy gas sensor published.
+  </div>
+</div>
+
+
 【**2024-10-24**】  Journal Publication : *Photoacoustics* — Miniature optical fiber photoacoustic spectroscopy gas sensor published.
 
 【**2024-09-21**】  Best Oral Presentation Award at OFS-China for talk on 3D micro-printed ferrule-top fiber sensor.
