@@ -1,11 +1,8 @@
 ---
-permalink: /
-title: ""
-excerpt: ""
+layout: archive
+title: "News"
+permalink: /News/
 author_profile: true
-redirect_from:
-  - /news/
-  - /news.html
 ---
 
 <div style="display: flex; align-items: center; background: #f0f0f0; padding: 10px; margin-bottom: 10px; border-radius: 4px; width: fit-content;">
