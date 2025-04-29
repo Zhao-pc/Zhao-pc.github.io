@@ -1,6 +1,6 @@
 ### 📅 2024
 
- **2024-10-24**  Journal Publication : *Photoacoustics* — Miniature optical fiber photoacoustic spectroscopy gas sensor published.
+ 【**2024-10-24**】  Journal Publication : *Photoacoustics* — Miniature optical fiber photoacoustic spectroscopy gas sensor published.
 
  **2024-09-21**  Best Oral Presentation Award at OFS-China for talk on 3D micro-printed ferrule-top fiber sensor.
 
