@@ -4,7 +4,8 @@ main:
     url: 
         
   - title: "News新闻"
-    url: /year-archive/
+    url: /news/   
+    #url: /year-archive/
     
   - title: "Achievements成果"
     url: /publications/
