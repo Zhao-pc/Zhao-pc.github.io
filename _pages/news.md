@@ -1,3 +1,12 @@
+---
+permalink: /
+title: ""
+excerpt: ""
+author_profile: true
+redirect_from:
+  - /news/
+  - /news.html
+---
 ### 📅 2024
 
 【**2024-10-24**】  Journal Publication : *Photoacoustics* — Miniature optical fiber photoacoustic spectroscopy gas sensor published.
