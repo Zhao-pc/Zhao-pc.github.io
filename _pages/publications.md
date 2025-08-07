@@ -27,14 +27,15 @@ Journal Articles
 
 Conference Proceedings
 ---
+[6] <ins>P. Zhao</ins>, H. L. Ho, S. Zhao, and W. Jin, “Polarization-mode-phase-difference photothermal gas sensing with an optical microfiber coupler,” in [_Optical Fiber Sensors_](https://doi.org/10.1117/12.3062015), SPIE, vol. 13639, pp. 893–896, 2025.
 
-[5] L. Guo, <ins>P. Zhao</ins>\*, H. L. Ho, et al., “Two-component photothermal gas sensor with a pump-probe-alternating technique,” in [_Optical Fiber Sensors_](https://opg.optica.org/abstract.cfm?uri=OFS-2023-Tu3.16), Optica Publishing Group, 2023, Tu3.16.
+[5] L. Guo, <ins>P. Zhao</ins>\*, H. L. Ho, et al., “Two-component photothermal gas sensor with a pump-probe-alternating technique,” in [_Optical Fiber Sensors_](https://opg.optica.org/abstract.cfm?uri=OFS-2023-Tu3.16), Optica Publishing Group, Tu3.16, 2023.
 
-[4] <ins>P. Zhao</ins>†, K. V. Krishnaiah†, L. Guo, et al., “High-sensitivity ﬁber-tip photothermal gas sensor based on a 3d µ-printed fabry-pérot microcavity,” in [_Optical Fiber Sensors_](https://opg.optica.org/abstract.cfm?uri=OFS-2023-Th5.2), Optica Publishing Group, 2023, Th5.2.
+[4] <ins>P. Zhao</ins>†, K. V. Krishnaiah†, L. Guo, et al., “High-sensitivity ﬁber-tip photothermal gas sensor based on a 3d µ-printed fabry-pérot microcavity,” in [_Optical Fiber Sensors_](https://opg.optica.org/abstract.cfm?uri=OFS-2023-Th5.2), Optica Publishing Group, Th5.2, 2023.
 
-[3] <ins>P. Zhao</ins>, S. Fan, H. L. Ho, and W. Jin*, “Microﬁber evanescent-wave photothermal methane sensor with sub-ppm sensitivity,” in [_Optical Fiber Sensors_](https://opg.optica.org/abstract.cfm?uri=OFS-2022-Th3.5), Optica Publishing Group, 2022, Th3.5.
+[3] <ins>P. Zhao</ins>, S. Fan, H. L. Ho, and W. Jin*, “Microﬁber evanescent-wave photothermal methane sensor with sub-ppm sensitivity,” in [_Optical Fiber Sensors_](https://opg.optica.org/abstract.cfm?uri=OFS-2022-Th3.5), Optica Publishing Group, Th3.5, 2022.
 
-[2] <ins>P. Zhao</ins>\*, H. L. Ho, W. Jin, et al., “Lp01-lp11 mode conversion in a negative curvature hollow-core ﬁber by use of a long-period grating,” in [_Asia Communications and Photonics Conference_](https://www.osapublishing.org/abstract.cfm?uri=ACPC-2020-M4A.118), Optica Publishing Group, 2020, M4A.118.
+[2] <ins>P. Zhao</ins>\*, H. L. Ho, W. Jin, et al., “Lp01-lp11 mode conversion in a negative curvature hollow-core ﬁber by use of a long-period grating,” in [_Asia Communications and Photonics Conference_](https://www.osapublishing.org/abstract.cfm?uri=ACPC-2020-M4A.118), Optica Publishing Group, M4A.118, 2020.
 
-[1] <ins>P. Zhao</ins>\*, Y. Zhao, H. Bao, et al., “Ultrasensitive photothermal gas sensor with a dual-mode anti-resonant hollow-core ﬁber,” in [_Optical Fiber Sensors_](https://www.osapublishing.org/abstract.cfm?uri=OFS-2020-W3.7), Optica Publishing Group, 2020, W3.7.
+[1] <ins>P. Zhao</ins>\*, Y. Zhao, H. Bao, et al., “Ultrasensitive photothermal gas sensor with a dual-mode anti-resonant hollow-core ﬁber,” in [_Optical Fiber Sensors_](https://www.osapublishing.org/abstract.cfm?uri=OFS-2020-W3.7), Optica Publishing Group, W3.7, 2020.
 
