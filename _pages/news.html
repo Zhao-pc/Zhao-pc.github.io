@@ -6,120 +6,37 @@ author_profile: true
 ---
 
 <style>
-.news-item {display: flex;align-items: center; background: #f0f0f0; padding: 10px; margin-bottom: 10px; border-radius: 4px;width: 800px;
-}
-.news-date { width: 60px;text-align: center;background: #e6e6e6;  margin-right: 15px;  border-radius: 4px;  padding: 5px 0;}
-.news-date .month { font-size: 16px;  font-weight: bold;  color: #1976d2;}
-.news-date .year { font-size: 18px;  font-weight: bold;  color: #000;}
-.news-content { font-size: 18px;  color: #000;  flex: 1;}
+.news-item{display:flex;align-items:center;background:#f0f0f0;padding:10px;margin-bottom:10px;border-radius:4px;max-width:800px}
+.news-date{width:60px;text-align:center;background:#e6e6e6;margin-right:15px;border-radius:4px;padding:5px 0}
+.news-date .month{font-size:16px;font-weight:700;color:#1976d2}
+.news-date .year{font-size:18px;font-weight:700;color:#000}
+.news-content{font-size:18px;color:#000;flex:1}
 </style>
 
-<div class="news-item">
-  <div class="news-date">
-    <div class="month">08-041</div>
-    <div class="year">2025</div>
-  </div>
-  <div class="news-content">
-    Journal Publication: <em>Journal of Lightwave Technology</em> — “Temperature-dependent Behavior of a Hollow-core Fiber Fabry–Pérot Photothermal Gas Sensor” published.
-  </div>
-</div>
+{% capture raw %}
+08-04|2025|Journal Publication: <em>Journal of Lightwave Technology</em> — “Temperature-dependent Behavior of a Hollow-core Fiber Fabry–Pérot Photothermal Gas Sensor” published.
+04-01|2025|Joined Leibniz-IPHT as a Humboldt Research Fellow in the Fiber Photonics Department under Prof. Markus Schmidt, beginning my research journey in Jena, Germany.
+10-24|2024|Journal Publication: <em>Photoacoustics</em> — Miniature optical fiber photoacoustic spectroscopy gas sensor published.
+09-21|2024|Best Oral Presentation Award at OFS-China for talk on 3D micro-printed ferrule-top fiber sensor.
+07-10|2024|Awarded Humboldt Research Fellowship for Postdocs by the Alexander von Humboldt Foundation.
+04-25|2024|Journal Publication: <em>Laser & Photonics Reviews</em> — Ultraminiature fiber-tip photothermal interferometric gas sensors.
+12-06|2023|Ph.D. thesis awarded Best Doctoral Thesis Award of Beijing.
+04-12|2023|Ph.D. thesis awarded Best Doctoral Thesis Award of BUAA.
+02-07|2023|Journal Publication: <em>Laser & Photonics Reviews</em> — Evanescent Wave Lab-on-Fiber for gas spectroscopy.
+11-19|2022|Ph.D. thesis received Nomination Award for Best Doctoral Thesis by CSAA.
+12-15|2021|Successfully defended Ph.D. thesis: <em>Investigation on fiber-optic photothermal interferometry for high sensitivity gas detection</em>.
+{% endcapture %}
+{% assign news = raw | split: "\n" %}
 
-<div class="news-item">
-  <div class="news-date">
-    <div class="month">04-01</div>
-    <div class="year">2025</div>
+{% for item in news %}
+  {% assign parts = item | split: "|" %}
+  {% if parts.size > 2 %}
+  <div class="news-item">
+    <div class="news-date">
+      <div class="month">{{ parts[0] }}</div>
+      <div class="year">{{ parts[1] }}</div>
+    </div>
+    <div class="news-content">{{ parts[2] }}</div>
   </div>
-  <div class="news-content">
-    Joined Leibniz-IPHT as a Humboldt Research Fellow in the Fiber Photonics Department under Prof. Markus Schmidt, beginning my research journey in Jena, Germany.
-  </div>
-</div>
-
-<div class="news-item">
-  <div class="news-date">
-    <div class="month">10-24</div>
-    <div class="year">2024</div>
-  </div>
-  <div class="news-content">
-    Journal Publication: <em>Photoacoustics</em> — Miniature optical fiber photoacoustic spectroscopy gas sensor published.
-  </div>
-</div>
-
-<div class="news-item">
-  <div class="news-date">
-    <div class="month">09-21</div>
-    <div class="year">2024</div>
-  </div>
-  <div class="news-content">
-    Best Oral Presentation Award at OFS-China for talk on 3D micro-printed ferrule-top fiber sensor.
-  </div>
-</div>
-
-<div class="news-item">
-  <div class="news-date">
-    <div class="month">07-10</div>
-    <div class="year">2024</div>
-  </div>
-  <div class="news-content">
-    Awarded Humboldt Research Fellowship for Postdocs by the Alexander von Humboldt Foundation.
-  </div>
-</div>
-
-<div class="news-item">
-  <div class="news-date">
-    <div class="month">04-25</div>
-    <div class="year">2024</div>
-  </div>
-  <div class="news-content">
-    Journal Publication: <em>Laser & Photonics Reviews</em> — Ultraminiature fiber-tip photothermal interferometric gas sensors.
-  </div>
-</div>
-
-<div class="news-item">
-  <div class="news-date">
-    <div class="month">12-06</div>
-    <div class="year">2023</div>
-  </div>
-  <div class="news-content">
-    Ph.D. thesis awarded Best Doctoral Thesis Award of Beijing.
-  </div>
-</div>
-
-<div class="news-item">
-  <div class="news-date">
-    <div class="month">04-12</div>
-    <div class="year">2023</div>
-  </div>
-  <div class="news-content">
-    Ph.D. thesis awarded Best Doctoral Thesis Award of BUAA.
-  </div>
-</div>
-
-<div class="news-item">
-  <div class="news-date">
-    <div class="month">02-07</div>
-    <div class="year">2023</div>
-  </div>
-  <div class="news-content">
-    Journal Publication: <em>Laser & Photonics Reviews</em> — Evanescent Wave Lab-on-Fiber for gas spectroscopy.
-  </div>
-</div>
-
-<div class="news-item">
-  <div class="news-date">
-    <div class="month">11-19</div>
-    <div class="year">2022</div>
-  </div>
-  <div class="news-content">
-    Ph.D. thesis received Nomination Award for Best Doctoral Thesis by CSAA.
-  </div>
-</div>
-
-<div class="news-item">
-  <div class="news-date">
-    <div class="month">12-15</div>
-    <div class="year">2021</div>
-  </div>
-  <div class="news-content">
-    Successfully defended Ph.D. thesis: <em>Investigation on fiber-optic photothermal interferometry for high sensitivity gas detection</em>.
-  </div>
-</div>
+  {% endif %}
+{% endfor %}
