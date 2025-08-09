@@ -26,10 +26,11 @@ author_profile: true
 11-19|2022|Ph.D. thesis received Nomination Award for Best Doctoral Thesis by CSAA.
 12-15|2021|Successfully defended Ph.D. thesis: <em>Investigation on fiber-optic photothermal interferometry for high sensitivity gas detection</em>.
 {% endcapture %}
-{% assign news = raw | split: "\n" %}
+
+{% assign news = raw | strip | newline_to_br | split: '<br />' %}
 
 {% for item in news %}
-  {% assign parts = item | split: "|" %}
+  {% assign parts = item | strip | split: '|' %}
   {% if parts.size > 2 %}
   <div class="news-item">
     <div class="news-date">
