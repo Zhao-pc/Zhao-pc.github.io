@@ -9,7 +9,7 @@ You can find my full publications in [Google Scholar](https://scholar.google.com
 
 Journal Articles
 ---
-[8] J. Wu, <ins>P. Zhao</ins>*, H. Bao, H. L. Ho, and W. Jin, “Hollow-core fiber Fabry–Pérot photothermal gas sensor: Temperature-dependent behavior,” [_Journal of Lightwave Technology_](https://ieeexplore.ieee.org/document/11112627) (Early Access), 2025 .
+[8] J. Wu, <ins>P. Zhao</ins>*, H. Bao, H. L. Ho, and W. Jin, “Hollow-core fiber Fabry–Pérot photothermal gas sensor: Temperature-dependent behavior,” [_Journal of Lightwave Technology_](https://ieeexplore.ieee.org/document/11112627) Vol. 43, no. 19, pp. 9458 - 9464, 2025 .
 
 [7] T. Li†, <ins>P. Zhao</ins>†, P. Wang, et al., “Miniature optical fiber photoacoustic spectroscopy gas sensor based on a 3D micro-printed planar-spiral spring optomechanical resonator,” [_Photoacoustics_](https://doi.org/10.1016/j.pacs.2024.100657), vol. 40,  100657, 2024.
 
