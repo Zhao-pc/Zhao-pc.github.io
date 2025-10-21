@@ -12,7 +12,44 @@ layout: compress
 
     <!-- 🌙 Theme Toggle CSS -->
     <style>
-    
+    /* ===== 导航栏颜色同步 ===== */
+.masthead,
+.masthead__menu,
+.masthead__inner-wrap,
+.site-header,
+.site-nav {
+  background-color: var(--bg-color) !important;
+  color: var(--text-color) !important;
+  border-bottom: 1px solid rgba(0,0,0,0.1);
+}
+
+.masthead a,
+.masthead__menu-item a,
+.site-title,
+.site-nav a {
+  color: var(--text-color) !important;
+  transition: color 0.3s ease;
+}
+
+.masthead a:hover,
+.site-nav a:hover {
+  opacity: 0.8;
+}
+
+/* 深色模式下的细节调整 */
+[data-theme="dark"] .masthead,
+[data-theme="dark"] .masthead__menu,
+[data-theme="dark"] .masthead__inner-wrap,
+[data-theme="dark"] .site-header,
+[data-theme="dark"] .site-nav {
+  background-color: #181818 !important;
+  border-bottom: 1px solid #333;
+}
+
+[data-theme="dark"] .site-nav a {
+  color: var(--text-color) !important;
+}
+
       /* ===== 页脚配色 ===== */
 .page__footer,
 .page__footer footer {
