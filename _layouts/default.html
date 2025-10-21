@@ -12,6 +12,24 @@ layout: compress
 
     <!-- 🌙 Theme Toggle CSS -->
     <style>
+      /* ===== 页脚配色 ===== */
+.page__footer,
+.page__footer footer {
+  background-color: var(--bg-color) !important;
+  color: var(--text-color) !important;
+  border-top: 1px solid rgba(0,0,0,0.1);
+}
+
+.page__footer a,
+.page__footer-follow a,
+.page__footer-copyright a {
+  color: var(--link-color) !important;
+}
+
+.page__footer a:hover {
+  opacity: 0.8;
+}
+
       :root {
         --bg-color: #ffffff;
         --text-color: #000000;
