@@ -5,18 +5,65 @@ layout: compress
 {% include base_path %}
 
 <!doctype html>
-  <html lang="{{ site.locale | slice: 0,2 }}" class="no-js">
-  
+<html lang="{{ site.locale | slice: 0,2 }}" class="no-js">
   <head>
     {% include head.html %}
     {% include head/custom.html %}
+
+    <!-- 🌙 Theme Toggle CSS -->
+    <style>
+      :root {
+        --bg-color: #ffffff;
+        --text-color: #000000;
+        --link-color: #007acc;
+      }
+
+      [data-theme="dark"] {
+        --bg-color: #121212;
+        --text-color: #f5f5f5;
+        --link-color: #66aaff;
+      }
+
+      body {
+        background-color: var(--bg-color);
+        color: var(--text-color);
+        transition: background-color 0.4s ease, color 0.4s ease;
+      }
+
+      a {
+        color: var(--link-color);
+      }
+
+      /* 🌙 按钮样式 */
+      .theme-toggle {
+        position: fixed;
+        top: 1rem;
+        right: 1rem;
+        width: 36px;
+        height: 36px;
+        font-size: 18px;
+        border: 2px solid var(--text-color);
+        border-radius: 50%;
+        background: transparent;
+        color: var(--text-color);
+        cursor: pointer;
+        transition: all 0.3s ease;
+        z-index: 2000;
+      }
+
+      .theme-toggle:hover {
+        background: var(--text-color);
+        color: var(--bg-color);
+      }
+    </style>
   </head>
 
-  
-    
   <body>
     {% include browser-upgrade.html %}
     {% include masthead.html %}
+
+    <!-- 🌙 Dark/Light mode toggle button -->
+    <button id="theme-toggle" class="theme-toggle" aria-label="Toggle dark mode">🌙</button>
 
     {{ content }}
 
@@ -29,5 +76,36 @@ layout: compress
 
     {% include scripts.html %}
 
+    <!-- 🌙 Dark/Light mode script -->
+    <script>
+      const toggleBtn = document.getElementById("theme-toggle");
+      const savedTheme = localStorage.getItem("theme");
+
+      if (savedTheme === "dark") {
+        document.documentElement.setAttribute("data-theme", "dark");
+        toggleBtn.textContent = "☀️";
+      }
+
+      toggleBtn.addEventListener("click", () => {
+        const currentTheme = document.documentElement.getAttribute("data-theme");
+        if (currentTheme === "dark") {
+          document.documentElement.removeAttribute("data-theme");
+          localStorage.setItem("theme", "light");
+          toggleBtn.textContent = "🌙";
+        } else {
+          document.documentElement.setAttribute("data-theme", "dark");
+          localStorage.setItem("theme", "dark");
+          toggleBtn.textContent = "☀️";
+        }
+      });
+
+      if (!savedTheme) {
+        if (window.matchMedia("(prefers-color-scheme: dark)").matches) {
+          document.documentElement.setAttribute("data-theme", "dark");
+          toggleBtn.textContent = "☀️";
+          localStorage.setItem("theme", "dark");
+        }
+      }
+    </script>
   </body>
 </html>
