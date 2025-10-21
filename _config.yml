@@ -7,7 +7,6 @@
 
 # Site Settings
 locale                   : "en-US"
-site_theme               : "default" # Currently available options are "default", "air"
 title                    : "Dr. Pengcheng ZHAO / 赵鹏程"
 title_separator          : "-"
 name                     : &name "Pengcheng ZHAO"
