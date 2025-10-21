@@ -445,16 +445,6 @@
 }
 
 
-/* ===== 去除所有导航/目录下划线 ===== */
-.greedy-nav a,
-.greedy-nav a:hover,
-.nav__list a,
-.nav__list a:hover,
-.toc__menu a,
-.toc__menu a:hover {
-  text-decoration: none !important;
-  border-bottom: none !important;
-}
 
 /* 禁用底部高亮条 */
 .greedy-nav a::before {
