@@ -6,11 +6,17 @@
   position: relative;
   border-bottom: 1px solid $border-color;
   -webkit-animation: intro 0.3s both;
-          animation: intro 0.3s both;
+  animation: intro 0.3s both;
   -webkit-animation-delay: 0.15s;
-          animation-delay: 0.15s;
+  animation-delay: 0.15s;
   z-index: 20;
 
+  /* 🌙 新增：跟随主题颜色变化 */
+  background-color: var(--bg-color);
+  color: var(--text-color);
+  transition: background-color 0.4s ease, color 0.4s ease;
+
+  /* 内部容器 */
   &__inner-wrap {
     @include container;
     @include clearfix;
@@ -27,9 +33,16 @@
 
     a {
       text-decoration: none;
+      color: var(--text-color);   /* 🌙 新增：链接颜色跟随主题 */
+      transition: color 0.3s ease;
+
+      &:hover {
+        opacity: 0.8;
+      }
     }
   }
 }
+
 
 .masthead__menu {
 
