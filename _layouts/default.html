@@ -78,6 +78,17 @@ layout: compress
   color: var(--bg-color);
 }
 
+      /* 🌙 响应式：在小屏幕上调整按钮位置，避免和导航重叠 */
+@media (max-width: 768px) {
+  .theme-toggle {
+    top: 0.75rem;     /* 稍微上移 */
+    right: 3.5rem;    /* ✅ 向左挪，避开汉堡菜单 */
+    width: 34px;
+    height: 34px;
+    font-size: 18px;
+  }
+}
+
 
       
     </style>
