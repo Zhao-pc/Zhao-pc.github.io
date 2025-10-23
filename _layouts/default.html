@@ -189,40 +189,49 @@ layout: compress
     if (points.length > maxTrail) points.shift();
   });
 
-  function draw() {
-    ctx.clearRect(0, 0, width, height);
+ function draw() {
+  ctx.clearRect(0, 0, width, height);
 
-    // 画轨迹
-    for (let i = 0; i < points.length; i++) {
-      const p = points[i];
-      const next = points[i + 1];
-      ctx.beginPath();
-      ctx.strokeStyle = `rgba(0, 255, 100, ${p.alpha})`; // 绿色轨迹
-      ctx.lineWidth = 3;
-      if (next) {
-        ctx.moveTo(p.x, p.y);
-        ctx.lineTo(next.x, next.y);
-      }
-      ctx.stroke();
+  // --- 绘制拖尾 ---
+  for (let i = 0; i < points.length - 1; i++) {
+    const p = points[i];
+    const next = points[i + 1];
+    ctx.beginPath();
+    ctx.strokeStyle = `rgba(0, 255, 100, ${p.alpha})`; // 明亮绿色
+    ctx.lineWidth = 4;                                 // ✅ 线更粗
+    ctx.shadowBlur = 15;                               // ✅ 发光半径
+    ctx.shadowColor = "rgba(0,255,100,0.8)";           // ✅ 绿色光晕
+    ctx.moveTo(p.x, p.y);
+    ctx.lineTo(next.x, next.y);
+    ctx.stroke();
 
-      // 逐渐消失
-      p.alpha *= 0.95;
-    }
-
-    // 画光点
-    if (points.length > 0) {
-      const last = points[points.length - 1];
-      const gradient = ctx.createRadialGradient(last.x, last.y, 0, last.x, last.y, 12);
-      gradient.addColorStop(0, 'rgba(0,255,100,1)');
-      gradient.addColorStop(1, 'rgba(0,255,100,0)');
-      ctx.fillStyle = gradient;
-      ctx.beginPath();
-      ctx.arc(last.x, last.y, 8, 0, Math.PI * 2);
-      ctx.fill();
-    }
-
-    requestAnimationFrame(draw);
+    p.alpha *= 0.96; // 逐渐淡出
   }
+
+  // --- 绘制发光点 ---
+  if (points.length > 0) {
+    const last = points[points.length - 1];
+
+    const gradient = ctx.createRadialGradient(last.x, last.y, 0, last.x, last.y, 30);
+    gradient.addColorStop(0, 'rgba(0,255,100,1)');     // 中心亮绿色
+    gradient.addColorStop(0.3, 'rgba(0,255,100,0.8)');
+    gradient.addColorStop(1, 'rgba(0,255,100,0)');
+
+    ctx.fillStyle = gradient;
+    ctx.beginPath();
+    ctx.arc(last.x, last.y, 12, 0, Math.PI * 2);       // ✅ 光点更大
+    ctx.fill();
+
+    // 添加中心亮点
+    ctx.beginPath();
+    ctx.fillStyle = 'rgba(0,255,150,1)';
+    ctx.arc(last.x, last.y, 3, 0, Math.PI * 2);
+    ctx.fill();
+  }
+
+  requestAnimationFrame(draw);
+}
+
 
   draw();
 </script>
