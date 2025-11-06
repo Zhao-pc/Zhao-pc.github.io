@@ -12,7 +12,7 @@ redirect_from:
 - **Best Oral Presentation Award** at OFS-China 2024, Chinese Society for Optical Engineering (CSOE)
 
 ### 2023
-- **<span style="color:#BE4040; font-weight:600;">Best Doctoral Thesis Award of Beijing</span>**, Beijing Municipal Education Commission (BMEC)  
+- <span style="color:#BE4040; font-weight:600;">**Best Doctoral Thesis Award of Beijing**</span>, Beijing Municipal Education Commission (BMEC)  
 - **Best Doctoral Thesis Award of BUAA**, BUAA
   
 ### 2022
