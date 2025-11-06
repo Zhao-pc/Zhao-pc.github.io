@@ -23,7 +23,7 @@ Journal Articles
 
 [2] <ins>P. Zhao</ins>, H. L. Ho, W. Jin\*, et al., “Gas sensing with mode-phase-diﬀerence photothermal spectroscopy assisted by a long period grating in a dual-mode negative-curvature hollow-core optical ﬁber,” [_Optics Letters_](https://www.osapublishing.org/ol/abstract.cfm?uri=ol-45-20-5660), vol. 45, no. 20, pp. 5660–5663, 2020.
 
-[1] <ins>P. Zhao</ins>, Y. Zhao, H. Bao, et al., “Mode-phase-diﬀerence photothermal spectroscopy for gas detection with an anti-resonant hollow-core optical ﬁber,” [<span style="color:red;">_Nature communications_]</span>(https://www.nature.com/articles/s41467-020-14707-0), vol. 11, no. 1, pp. 1–8, 2020.
+[1] <ins>P. Zhao</ins>, Y. Zhao, H. Bao, et al., “Mode-phase-diﬀerence photothermal spectroscopy for gas detection with an anti-resonant hollow-core optical ﬁber,” [<span style="color:red;">_Nature communications_</span>](https://www.nature.com/articles/s41467-020-14707-0), vol. 11, no. 1, pp. 1–8, 2020.
 
 Conference Proceedings
 ---
