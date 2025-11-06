@@ -8,11 +8,11 @@ redirect_from:
 ---
 ## After PhD Graduation
 ## 2024
-- **<span style="color:#BE4040; font-weight:600;">Humboldt Research Fellowship for Postdocs</span>**, Alexander von Humboldt-Stiftung (AvH)  
+- **<span style="color:#BE4040">Humboldt Research Fellowship for Postdocs</span>**, Alexander von Humboldt-Stiftung (AvH)  
 - **Best Oral Presentation Award** at OFS-China 2024, Chinese Society for Optical Engineering (CSOE)
 
 ### 2023
-- <span style="color:#BE4040; font-weight:600;">**Best Doctoral Thesis Award of Beijing**</span>, Beijing Municipal Education Commission (BMEC)  
+- <span style="color:#BE4040">**Best Doctoral Thesis Award of Beijing**</span>, Beijing Municipal Education Commission (BMEC)  
 - **Best Doctoral Thesis Award of BUAA**, BUAA
   
 ### 2022
@@ -21,7 +21,7 @@ redirect_from:
 ## During PhD
 
 ### 2021
-- **<span style="color:#BE4040; font-weight:600;">China’s Top 10 Optical Breakthroughs</span>**, Chinese Laser Press (CLP)  
+- **<span style="color:#BE4040">China’s Top 10 Optical Breakthroughs</span>**, Chinese Laser Press (CLP)  
 - **Top 10 Outstanding Graduate Students**, BUAA  
 - **Top 10 Outstanding Paper Award**, BUAA 
 - **CASC Scholarship**, China Aerospace Science and Technology Corporation (CASC)
