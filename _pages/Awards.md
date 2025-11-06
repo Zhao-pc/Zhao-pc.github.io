@@ -9,7 +9,7 @@ redirect_from:
 ## After PhD Graduation
 ## 2024
 - **<span style="color:#BE4040">Humboldt Research Fellowship for Postdocs</span>**, Alexander von Humboldt-Stiftung (AvH)  
-- **<span style="color:#BE4040">Best Oral Presentation Awar</span>** at OFS-China 2024, Chinese Society for Optical Engineering (CSOE)
+- **<span style="color:#BE4040">Best Oral Presentation Award</span>** at OFS-China 2024, Chinese Society for Optical Engineering (CSOE)
 
 ### 2023
 - <span style="color:#BE4040">**Best Doctoral Thesis Award of Beijing**</span>, Beijing Municipal Education Commission (BMEC)  
