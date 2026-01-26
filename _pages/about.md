@@ -12,7 +12,7 @@ I am **Pengcheng Zhao**, a **Humboldt Fellow (洪堡学者)** at the Leibniz Ins
 
 ![avatar](/images/sdjz_zsl.jpg)
 
-My research interests include laser spectroscopy, fiber-optic sensors, and fiber-optic devices. I have participated in four research grants, published over 10 peer-reviewed papers in journals such as **_Nature Communications_**, **_Laser & Photonics Reviews_**, **_Photoacoustics_**, **_Journal of Lightwave Technology_**, and **_Optics Letters_**, and co-authored 3 national patents. I also serve as a reviewer for international journals including _Journal of Lightwave Technology_, _Optics Letters_, _Optics Express_, _Optics & Laser Technology_, _Sensors & Actuators A: Physical_ and _Applied Physics B_.
+My research interests include laser spectroscopy, fiber-optic sensors, and fiber-optic devices. I have participated in four research grants, published over 10 peer-reviewed papers in journals such as **_Nature Communications_**, **_Laser & Photonics Reviews_**, **_Nano Letters_**, **_Photoacoustics_**, **_Journal of Lightwave Technology_**, and **_Optics Letters_**, and co-authored 3 national patents. I also serve as a reviewer for international journals including _Journal of Lightwave Technology_, _Optics Letters_, _Optics Express_, _Optics & Laser Technology_, _Sensors & Actuators A: Physical_ and _Applied Physics B_.
 
 ---
 
