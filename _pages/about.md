@@ -18,16 +18,23 @@ My research interests include laser spectroscopy, fiber-optic sensors, and fiber
 
 ## **Research Highlights**
 
-### ☆ **Microstructured Optical Fibers-Based Sensors and Devices**
+### ☆ **Microstructured Hollow-core fibers Based Sensors and Devices**
 <p style="text-align: center;">
   <a href="https://www.nature.com/articles/s41467-020-14707-0" target="_blank">
     <img src="/images/MPDPTS.png" alt="Image 1" title="Mode-phase-difference photothermal spectroscopy for gas detection with an anti-resonant hollow-core optical fiber" width="360" style="margin-right: 20px;">
   </a>
+  <a href="https://opg.optica.org/abstract.cfm?uri=ACPC-2020-M4A.118" target="_blank">
+    <img src="/images/HCFLPG.png" alt="Image 3" title="LP01-LP11 mode conversion in a negative curvature hollow-core fiber by use of a long-period grating" width="300" style="margin-left: 20px;">
+  </a>
+</p>
+
+### ☆ **Nano- / Micro-fibers Based Sensors**
+<p style="text-align: center;">
   <a href="https://onlinelibrary.wiley.com/doi/abs/10.1002/lpor.202200972" target="_blank">
     <img src="/images/eMPDPTS.png" alt="Image 2" title="Evanescent wave lab-on-ﬁber for high sensitivity gas spectroscopy with wide dynamic range and long-term stability" width="350" style="margin-left: 20px;">
   </a>
   <a href="https://opg.optica.org/abstract.cfm?uri=ACPC-2020-M4A.118" target="_blank">
-    <img src="/images/HCFLPG.png" alt="Image 3" title="LP01-LP11 mode conversion in a negative curvature hollow-core fiber by use of a long-period grating" width="300" style="margin-left: 20px;">
+    <img src="/images/PMnanofiber.png" alt="Image 4" title="Ultrasensitive Gas Detection via Polarization-Mode Photothermal Interferometry in a Single-Mode Nanofiber Coupler" width="300" style="margin-left: 20px;">
   </a>
 </p>
 
