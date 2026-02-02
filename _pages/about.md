@@ -33,9 +33,7 @@ My research interests include laser spectroscopy, fiber-optic sensors, and fiber
   <a href="https://onlinelibrary.wiley.com/doi/abs/10.1002/lpor.202200972" target="_blank">
     <img src="/images/eMPDPTS.png" alt="Image 2" title="Evanescent wave lab-on-ﬁber for high sensitivity gas spectroscopy with wide dynamic range and long-term stability" width="350" style="margin-left: 20px;">
   </a>
-  <a href="https://opg.optica.org/abstract.cfm?uri=ACPC-2020-M4A.118" target="_blank">
-    <img src="/images/PMnanofiber.png" alt="Image 4" title="Ultrasensitive Gas Detection via Polarization-Mode Photothermal Interferometry in a Single-Mode Nanofiber Coupler" width="300" style="margin-left: 20px;">
-  </a>
+
 </p>
 
 ### ☆☆ **Fiber-Tip / Ferrule-Top Sensors and Devices**
