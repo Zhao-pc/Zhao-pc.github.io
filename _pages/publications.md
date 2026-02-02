@@ -10,8 +10,8 @@ You can find my full publications in [Google Scholar](https://scholar.google.com
 ---
 
 ## Journal Articles
-[10] <ins>P. Zhao</ins>*, H. Bao, H. L. Ho, S. Zhao, and W. Jin*, “Ultrasensitive Gas Detection via Polarization-Mode Photothermal Interferometry in a Single-Mode Nanofiber Coupler,” <span style="color:#BE4040; font-weight:600;">Nano Letters</span>
-, 2026 (in press).
+[10] <ins>P. Zhao</ins>\*, H. Bao, H. L. Ho, S. Zhao, and W. Jin\*, “Ultrasensitive Gas Detection via Polarization-Mode Photothermal Interferometry in a Single-Mode Nanofiber Coupler,” [<span style="color:#BE4040; font-weight:600;">_Nano Letters_</span>](https://doi.org/10.1021/acs.nanolett.5c06094), 2026 (in press).
+
 
 [9] T. Li†, <ins>P. Zhao</ins>†, P. Wang, et al., “Ultra-miniature and sensitive optical fiber-tip optomechanical resonant photoacoustic spectroscopy gas sensors,” [_Photoacoustics_](https://doi.org/10.1016/j.pacs.2025.100784), vol. 46, 100784, 2025.  
 
