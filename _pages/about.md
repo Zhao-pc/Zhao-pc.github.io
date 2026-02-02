@@ -28,7 +28,7 @@ My research interests include laser spectroscopy, fiber-optic sensors, and fiber
   </a>
 </p>
 
-### ☆ **Nano-/Micro-fibers**
+### ☆☆ **Nano-/Micro-fibers**
 <p style="text-align: center;">
   <a href="https://onlinelibrary.wiley.com/doi/abs/10.1002/lpor.202200972" target="_blank">
     <img src="/images/eMPDPTS.png" alt="Image 2" title="Evanescent wave lab-on-ﬁber for high sensitivity gas spectroscopy with wide dynamic range and long-term stability" width="340" style="margin-right: 20px;">
@@ -38,7 +38,7 @@ My research interests include laser spectroscopy, fiber-optic sensors, and fiber
   </a>
 </p>
 
-### ☆☆ ** Lab-on-fiber technology**
+### ☆☆☆ **Lab-on-fiber technology**
 <p style="text-align: center;">
   <a href="https://onlinelibrary.wiley.com/doi/full/10.1002/lpor.202301285" target="_blank">
     <img src="/images/fibertipPTS1.png" alt="Image 4" title="Ultraminiature Optical Fiber-Tip 3D-Microprinted Photothermal Interferometric Gas Sensors" width="340" style="margin-right: 20px;">
