@@ -18,7 +18,7 @@ My research interests include laser spectroscopy, fiber-optic sensors, and fiber
 
 ## **Research Highlights**
 
-### ☆ **Microstructured Hollow-core fibers Based Sensors and Devices**
+### ☆ **Microstructured Hollow-core fibers**
 <p style="text-align: center;">
   <a href="https://www.nature.com/articles/s41467-020-14707-0" target="_blank">
     <img src="/images/MPDPTS.png" alt="Image 1" title="Mode-phase-difference photothermal spectroscopy for gas detection with an anti-resonant hollow-core optical fiber" width="360" style="margin-right: 20px;">
@@ -28,7 +28,7 @@ My research interests include laser spectroscopy, fiber-optic sensors, and fiber
   </a>
 </p>
 
-### ☆ **Nano- / Micro-fibers Based Sensors**
+### ☆ **Nano-/Micro-fibers**
 <p style="text-align: center;">
   <a href="https://onlinelibrary.wiley.com/doi/abs/10.1002/lpor.202200972" target="_blank">
     <img src="/images/eMPDPTS.png" alt="Image 2" title="Evanescent wave lab-on-ﬁber for high sensitivity gas spectroscopy with wide dynamic range and long-term stability" width="360" style="margin-right: 20px;">
@@ -38,7 +38,7 @@ My research interests include laser spectroscopy, fiber-optic sensors, and fiber
   </a>
 </p>
 
-### ☆☆ **Fiber-Tip / Ferrule-Top Sensors and Devices**
+### ☆☆ ** Lab-on-fiber technology**
 <p style="text-align: center;">
   <a href="https://onlinelibrary.wiley.com/doi/full/10.1002/lpor.202301285" target="_blank">
     <img src="/images/fibertipPTS1.png" alt="Image 4" title="Ultraminiature Optical Fiber-Tip 3D-Microprinted Photothermal Interferometric Gas Sensors" width="340" style="margin-right: 20px;">
