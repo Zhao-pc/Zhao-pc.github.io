@@ -18,7 +18,7 @@ My research interests include laser spectroscopy, fiber-optic sensors, and fiber
 
 ## **Research Highlights**
 
-### ☆ **Microstructured Hollow-core fibers**
+### ☆ **Microstructured hollow-core fibers**
 <p style="text-align: center;">
   <a href="https://www.nature.com/articles/s41467-020-14707-0" target="_blank">
     <img src="/images/MPDPTS.png" alt="Image 1" title="Mode-phase-difference photothermal spectroscopy for gas detection with an anti-resonant hollow-core optical fiber" width="360" style="margin-right: 20px;">
