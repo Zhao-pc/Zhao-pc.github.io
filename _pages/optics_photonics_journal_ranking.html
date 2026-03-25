@@ -1,84 +1,119 @@
 ---
 permalink: /Journal/
 ---
-
 <!DOCTYPE html>
 <html lang="zh">
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>光学与光子学期刊分区表</title>
+<title>光学期刊分区查询 2025</title>
 <style>
-  *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
-  body { font-family: -apple-system, "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", sans-serif; background: #f8f8f6; color: #1a1a1a; font-size: 14px; }
-  .page { max-width: 1100px; margin: 0 auto; padding: 32px 24px 64px; }
+*,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
+body{font-family:-apple-system,"PingFang SC","Hiragino Sans GB","Microsoft YaHei",sans-serif;background:#f7f7f5;color:#1a1a1a;font-size:14px}
+.page{max-width:1120px;margin:0 auto;padding:28px 24px 64px}
 
-  .header { margin-bottom: 28px; }
-  .header h1 { font-size: 22px; font-weight: 600; color: #1a1a1a; margin-bottom: 4px; }
-  .header p { font-size: 13px; color: #888; }
+/* ── Tab switcher ── */
+.tab-bar{display:flex;gap:0;margin-bottom:24px;background:#fff;border:1px solid #e0e0e0;border-radius:12px;padding:4px;width:fit-content}
+.tab-btn{font-size:13px;font-weight:500;padding:7px 22px;border-radius:9px;border:none;background:transparent;color:#888;cursor:pointer;transition:all .18s;font-family:inherit;line-height:1.4}
+.tab-btn.active{background:#1a1a1a;color:#fff;box-shadow:0 1px 4px rgba(0,0,0,.15)}
+.tab-btn:hover:not(.active){color:#333;background:#f0f0ee}
 
-  .stats-row { display: flex; gap: 10px; margin-bottom: 24px; flex-wrap: wrap; }
-  .stat-card { flex: 1; min-width: 100px; background: #fff; border-radius: 10px; padding: 14px 16px; border: 1px solid #ebebeb; }
-  .stat-num { font-size: 28px; font-weight: 700; line-height: 1; margin-bottom: 4px; }
-  .stat-label { font-size: 11px; color: #999; }
-  .s1 .stat-num { color: #c0392b; }
-  .s2 .stat-num { color: #d35400; }
-  .s3 .stat-num { color: #27ae60; }
-  .s4 .stat-num { color: #2980b9; }
-  .st .stat-num { color: #555; }
+/* ── Panel ── */
+.panel{display:none}.panel.active{display:block}
 
-  .toolbar { display: flex; align-items: center; gap: 10px; margin-bottom: 16px; flex-wrap: wrap; }
-  .filters { display: flex; gap: 6px; flex-wrap: wrap; }
-  .filter-btn { font-size: 12px; padding: 5px 14px; border-radius: 20px; border: 1px solid #ddd; background: #fff; color: #666; cursor: pointer; transition: all 0.15s; font-family: inherit; }
-  .filter-btn:hover { border-color: #aaa; color: #333; }
-  .filter-btn.active { background: #1a1a1a; color: #fff; border-color: #1a1a1a; }
-  .filter-btn.z1.active { background: #c0392b; border-color: #c0392b; }
-  .filter-btn.z2.active { background: #d35400; border-color: #d35400; }
-  .filter-btn.z3.active { background: #27ae60; border-color: #27ae60; }
-  .filter-btn.z4.active { background: #2980b9; border-color: #2980b9; }
+/* ── Header ── */
+.header{margin-bottom:20px}
+.header h2{font-size:20px;font-weight:600;margin-bottom:4px}
+.header p{font-size:12.5px;color:#888;line-height:1.7}
 
-  .search-wrap { position: relative; flex: 1; min-width: 200px; max-width: 320px; }
-  .search-wrap input { width: 100%; padding: 6px 12px 6px 32px; border: 1px solid #ddd; border-radius: 20px; font-size: 13px; background: #fff; font-family: inherit; color: #1a1a1a; outline: none; }
-  .search-wrap input:focus { border-color: #aaa; }
-  .search-icon { position: absolute; left: 10px; top: 50%; transform: translateY(-50%); color: #bbb; font-size: 14px; pointer-events: none; }
+/* ── Stats ── */
+.stats-row{display:flex;gap:10px;margin-bottom:18px;flex-wrap:wrap}
+.stat-card{flex:1;min-width:88px;background:#fff;border-radius:10px;padding:12px 14px;border:1px solid #e8e8e8}
+.stat-num{font-size:26px;font-weight:700;line-height:1;margin-bottom:3px}
+.stat-label{font-size:11px;color:#999}
+.s1 .stat-num,.sq1 .stat-num{color:#c0392b}
+.s2 .stat-num,.sq2 .stat-num{color:#d35400}
+.s3 .stat-num,.sq3 .stat-num{color:#27ae60}
+.s4 .stat-num,.sq4 .stat-num{color:#2980b9}
+.st .stat-num{color:#555}
 
-  .count-label { font-size: 12px; color: #aaa; margin-left: auto; white-space: nowrap; }
+/* ── Note ── */
+.note-bar{background:#fffbf0;border:1px solid #f0e0a0;border-radius:8px;padding:9px 14px;font-size:12px;color:#7a6000;margin-bottom:16px;line-height:1.65}
 
-  .table-wrap { background: #fff; border-radius: 12px; border: 1px solid #ebebeb; overflow: hidden; }
-  table { width: 100%; border-collapse: collapse; }
-  thead { position: sticky; top: 0; z-index: 10; }
-  th { text-align: left; padding: 11px 14px; font-weight: 500; color: #999; background: #fafafa; border-bottom: 1px solid #ebebeb; font-size: 11px; letter-spacing: 0.3px; text-transform: uppercase; white-space: nowrap; }
-  td { padding: 10px 14px; border-bottom: 1px solid #f2f2f2; vertical-align: middle; }
-  tr:last-child td { border-bottom: none; }
-  tr:hover td { background: #fafafa; }
-  .rank { color: #ccc; font-size: 12px; width: 36px; font-variant-numeric: tabular-nums; }
-  .name-cell { max-width: 340px; }
-  .journal-link { color: #1a1a1a; text-decoration: none; font-weight: 500; font-size: 13px; display: inline-flex; align-items: center; gap: 5px; transition: color 0.15s; }
-  .journal-link:hover { color: #0066cc; }
-  .ext-icon { opacity: 0; width: 12px; height: 12px; transition: opacity 0.15s; flex-shrink: 0; }
-  .journal-link:hover .ext-icon { opacity: 0.5; }
-  .issn-cell { color: #bbb; font-size: 11.5px; font-family: "SF Mono", "Fira Mono", monospace; white-space: nowrap; }
-  .zone-badge { display: inline-block; padding: 2px 9px; border-radius: 4px; font-size: 11px; font-weight: 600; white-space: nowrap; letter-spacing: 0.3px; }
-  .badge-1 { background: #fdf0ee; color: #c0392b; }
-  .badge-2 { background: #fef4ec; color: #d35400; }
-  .badge-3 { background: #edfaf3; color: #27ae60; }
-  .badge-4 { background: #eaf4fb; color: #2980b9; }
+/* ── Toolbar ── */
+.toolbar{display:flex;align-items:center;gap:8px;margin-bottom:14px;flex-wrap:wrap}
+.filters{display:flex;gap:5px;flex-wrap:wrap}
+.filter-btn{font-size:12px;padding:5px 13px;border-radius:20px;border:1px solid #ddd;background:#fff;color:#666;cursor:pointer;transition:all .15s;font-family:inherit}
+.filter-btn:hover{border-color:#aaa;color:#333}
+.filter-btn.active{background:#1a1a1a;color:#fff;border-color:#1a1a1a}
+.z1.active,.fq1.active{background:#c0392b!important;border-color:#c0392b!important}
+.z2.active,.fq2.active{background:#d35400!important;border-color:#d35400!important}
+.z3.active,.fq3.active{background:#27ae60!important;border-color:#27ae60!important}
+.z4.active,.fq4.active{background:#2980b9!important;border-color:#2980b9!important}
+.search-wrap{position:relative;flex:1;min-width:180px;max-width:300px}
+.search-wrap input{width:100%;padding:6px 12px 6px 30px;border:1px solid #ddd;border-radius:20px;font-size:13px;background:#fff;font-family:inherit;color:#1a1a1a;outline:none}
+.search-wrap input:focus{border-color:#aaa}
+.search-icon{position:absolute;left:10px;top:50%;transform:translateY(-50%);color:#bbb;font-size:14px;pointer-events:none}
+.count-label{font-size:12px;color:#aaa;margin-left:auto;white-space:nowrap}
 
-  .if-cell { text-align: right; font-size: 13px; font-weight: 500; white-space: nowrap; padding-right: 20px; }
-  .if-high { color: #c0392b; }
-  .if-mid  { color: #d35400; }
-  .if-low  { color: #27ae60; }
-  .if-none { color: #ccc; font-size: 11px; font-weight: 400; }
-  .empty { padding: 48px; text-align: center; color: #bbb; font-size: 14px; }
+/* ── Table ── */
+.table-wrap{background:#fff;border-radius:12px;border:1px solid #e8e8e8;overflow:hidden}
+table{width:100%;border-collapse:collapse}
+thead{position:sticky;top:0;z-index:10}
+th{text-align:left;padding:10px 12px;font-weight:500;color:#999;background:#fafafa;border-bottom:1px solid #ebebeb;font-size:11px;letter-spacing:.3px;text-transform:uppercase;white-space:nowrap}
+td{padding:9px 12px;border-bottom:1px solid #f2f2f2;vertical-align:middle}
+tr:last-child td{border-bottom:none}
+tr:hover td{background:#fafafa}
+.rank-cell{color:#ccc;font-size:12px;width:36px;font-variant-numeric:tabular-nums}
+
+/* ── Badges ── */
+.zone-badge,.q-badge{display:inline-flex;align-items:center;justify-content:center;padding:2px 9px;border-radius:4px;font-size:11px;font-weight:600;letter-spacing:.3px;white-space:nowrap}
+.q-badge{width:28px;padding:0}
+.badge-1,.bq1{background:#fdf0ee;color:#c0392b}
+.badge-2,.bq2{background:#fef4ec;color:#d35400}
+.badge-3,.bq3{background:#edfaf3;color:#27ae60}
+.badge-4,.bq4{background:#eaf4fb;color:#2980b9}
+
+/* ── Links ── */
+.journal-link{color:#1a1a1a;text-decoration:none;font-weight:500;font-size:13px;display:inline-flex;align-items:center;gap:5px;transition:color .15s}
+.journal-link:hover{color:#0066cc}
+.ext-icon{opacity:0;width:11px;height:11px;transition:opacity .15s;flex-shrink:0}
+.journal-link:hover .ext-icon{opacity:.4}
+
+/* ── IF cell ── */
+.if-cell{text-align:right;padding-right:18px;font-size:13px;font-weight:500;white-space:nowrap}
+.if-top{color:#c0392b}.if-high{color:#d35400}.if-mid{color:#27ae60}.if-low{color:#888}
+.if-none{color:#ccc;font-size:11px;font-weight:400}
+
+/* ── ISSN ── */
+.issn-cell{color:#bbb;font-size:11.5px;font-family:"SF Mono","Fira Mono",monospace;white-space:nowrap}
+
+/* ── Publisher ── */
+.pub-cell{font-size:11px;color:#bbb;white-space:nowrap}
+
+/* ── Separator rows (JCR panel) ── */
+.sep-row td{background:#f5f5f5;padding:5px 12px;font-size:10.5px;font-weight:700;color:#aaa;letter-spacing:1.5px;text-transform:uppercase;border-bottom:1px solid #ebebeb;border-top:2px solid #e0e0e0}
+
+.empty{padding:48px;text-align:center;color:#bbb}
 </style>
 </head>
 <body>
 <div class="page">
+
+<!-- ── Tab switcher ── -->
+<div class="tab-bar">
+  <button class="tab-btn active" data-panel="cas" onclick="switchTab(this)">中科院新锐分区</button>
+  <button class="tab-btn" data-panel="jcr" onclick="switchTab(this)">JCR Optics 分区</button>
+</div>
+
+<!-- ════════════════════════════════════════════
+     PANEL A: 中科院新锐分区
+     ════════════════════════════════════════════ -->
+<div class="panel active" id="panel-cas">
   <div class="header">
-    <h1>光学与光子学期刊分区表</h1>
+    <h2>光学与光子学期刊分区表（中科院新锐分区）</h2>
     <p>新锐分区 · 光学 / 光子学 / 激光领域 · 共 126 本期刊 · 点击期刊名访问官网</p>
   </div>
-
   <div class="stats-row">
     <div class="stat-card s1"><div class="stat-num">14</div><div class="stat-label">1区 顶刊</div></div>
     <div class="stat-card s2"><div class="stat-num">22</div><div class="stat-label">2区 高水平</div></div>
@@ -86,56 +121,117 @@ permalink: /Journal/
     <div class="stat-card s4"><div class="stat-num">52</div><div class="stat-label">4区 一般</div></div>
     <div class="stat-card st"><div class="stat-num">126</div><div class="stat-label">总计</div></div>
   </div>
-
   <div class="toolbar">
-    <div class="filters">
-      <button class="filter-btn active" data-zone="all">全部</button>
-      <button class="filter-btn z1" data-zone="1">1区</button>
-      <button class="filter-btn z2" data-zone="2">2区</button>
-      <button class="filter-btn z3" data-zone="3">3区</button>
-      <button class="filter-btn z4" data-zone="4">4区</button>
+    <div class="filters" id="cas-filters">
+      <button class="filter-btn active" data-zone="all" onclick="casFilter(this)">全部</button>
+      <button class="filter-btn z1" data-zone="1" onclick="casFilter(this)">1区</button>
+      <button class="filter-btn z2" data-zone="2" onclick="casFilter(this)">2区</button>
+      <button class="filter-btn z3" data-zone="3" onclick="casFilter(this)">3区</button>
+      <button class="filter-btn z4" data-zone="4" onclick="casFilter(this)">4区</button>
     </div>
     <div class="search-wrap">
       <span class="search-icon">⌕</span>
-      <input type="text" id="search" placeholder="搜索期刊名称…" oninput="doFilter()">
+      <input type="text" id="cas-search" placeholder="搜索期刊名称…" oninput="casFilter()">
     </div>
-    <span class="count-label" id="count-label">126 本期刊</span>
+    <span class="count-label" id="cas-count">126 本期刊</span>
   </div>
-
   <div class="table-wrap">
     <table>
-      <thead>
-        <tr>
-          <th>#</th>
-          <th>期刊名称</th>
-          <th style="text-align:right;padding-right:20px">IF 2025</th>
-          <th>ISSN</th>
-          <th>EISSN</th>
-          <th>分区</th>
-        </tr>
-      </thead>
-      <tbody id="tbody"></tbody>
+      <thead><tr>
+        <th>#</th><th>期刊名称</th>
+        <th style="text-align:right;padding-right:18px">IF 2025</th>
+        <th>ISSN</th><th>EISSN</th><th>分区</th>
+      </tr></thead>
+      <tbody id="cas-tbody"></tbody>
     </table>
-    <div class="empty" id="empty" style="display:none">未找到匹配期刊</div>
+    <div class="empty" id="cas-empty" style="display:none">未找到匹配期刊</div>
   </div>
 </div>
 
+<!-- ════════════════════════════════════════════
+     PANEL B: JCR Optics 分区
+     ════════════════════════════════════════════ -->
+<div class="panel" id="panel-jcr">
+  <div class="header">
+    <h2>光学期刊分区表（JCR Optics 类别）</h2>
+    <p>Optics 学科类别 · 2025年6月 Clarivate JCR 正式发布（基于2024年引用数据）· 共 125 本期刊 · 点击期刊名访问官网<br>
+    Q1: 前25%（1–31）｜ Q2: 25–50%（32–63）｜ Q3: 50–75%（64–94）｜ Q4: 75–100%（95–125）</p>
+  </div>
+  <div class="stats-row">
+    <div class="stat-card sq1"><div class="stat-num">31</div><div class="stat-label">Q1 顶刊</div></div>
+    <div class="stat-card sq2"><div class="stat-num">32</div><div class="stat-label">Q2 高水平</div></div>
+    <div class="stat-card sq3"><div class="stat-num">31</div><div class="stat-label">Q3 良好</div></div>
+    <div class="stat-card sq4"><div class="stat-num">31</div><div class="stat-label">Q4 一般</div></div>
+    <div class="stat-card st"><div class="stat-num">125</div><div class="stat-label">总计</div></div>
+  </div>
+  <div class="note-bar">
+    ⚠️ <strong>注意：</strong>JCR 分区仅基于 Optics 单一学科内排名，与中科院新锐分区结果可能不同。同一期刊可能在多个 JCR 类别（如 Physics Applied、Materials Science）中同时存在并有不同分区。IF 数据：Clarivate 2025年6月 JCR 发布版。
+  </div>
+  <div class="toolbar">
+    <div class="filters" id="jcr-filters">
+      <button class="filter-btn active" data-q="all" onclick="jcrFilter(this)">全部</button>
+      <button class="filter-btn fq1" data-q="1" onclick="jcrFilter(this)">Q1</button>
+      <button class="filter-btn fq2" data-q="2" onclick="jcrFilter(this)">Q2</button>
+      <button class="filter-btn fq3" data-q="3" onclick="jcrFilter(this)">Q3</button>
+      <button class="filter-btn fq4" data-q="4" onclick="jcrFilter(this)">Q4</button>
+    </div>
+    <div class="search-wrap">
+      <span class="search-icon">⌕</span>
+      <input type="text" id="jcr-search" placeholder="搜索期刊名称或出版商…" oninput="jcrFilter()">
+    </div>
+    <span class="count-label" id="jcr-count">95 本期刊</span>
+  </div>
+  <div class="table-wrap">
+    <table>
+      <thead><tr>
+        <th>排名</th><th>分区</th><th>期刊名称</th>
+        <th style="text-align:right;padding-right:18px">IF 2025</th>
+        <th>出版商</th>
+      </tr></thead>
+      <tbody id="jcr-tbody"></tbody>
+    </table>
+    <div class="empty" id="jcr-empty" style="display:none">未找到匹配期刊</div>
+  </div>
+</div>
+
+</div><!-- .page -->
+
 <script>
+// ─── Tab switching ─────────────────────────────────────────
+function switchTab(btn) {
+  document.querySelectorAll('.tab-btn').forEach(b => b.classList.remove('active'));
+  document.querySelectorAll('.panel').forEach(p => p.classList.remove('active'));
+  btn.classList.add('active');
+  document.getElementById('panel-' + btn.dataset.panel).classList.add('active');
+}
+
+// ─── Shared icon SVG ──────────────────────────────────────
+const EXT = `<svg class="ext-icon" viewBox="0 0 12 12" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M5 2H2a1 1 0 0 0-1 1v7a1 1 0 0 0 1 1h7a1 1 0 0 0 1-1V7"/><path d="M8 1h3v3M11 1 6 6" stroke-linecap="round" stroke-linejoin="round"/></svg>`;
+
+function ifHtml(v) {
+  if (v === null || v === undefined) return '<span class="if-none">—</span>';
+  const cls = v >= 20 ? 'if-top' : v >= 5 ? 'if-high' : v >= 2 ? 'if-mid' : 'if-low';
+  return `<span class="${cls}">${v.toFixed(1)}</span>`;
+}
+
+// ═══════════════════════════════════════════════════════════
+//  PANEL A — 中科院新锐分区
+// ═══════════════════════════════════════════════════════════
 const IF_MAP = {
   1: 26.0,
   2: 23.8,
   3: 32.9,
   4: 23.4,
-  5: 19.1,
+  5: null,
   6: null,
   7: 20.6,
   8: 22.4,
   9: 8.3,
   10: 8.5,
-  11: 10.6,
+  11: null,
   12: 7.2,
   13: 9.9,
-  14: 9.9,
+  14: null,
   15: 5.0,
   16: 6.7,
   17: 5.8,
@@ -143,12 +239,12 @@ const IF_MAP = {
   19: 5.4,
   20: 8.0,
   21: 4.8,
-  22: 7.1,
+  22: null,
   23: 4.3,
   24: 4.5,
   25: 3.1,
   26: 8.4,
-  27: 6.0,
+  27: null,
   28: 3.5,
   29: 3.8,
   30: 4.2,
@@ -198,11 +294,11 @@ const IF_MAP = {
   74: 1.5,
   75: 1.7,
   76: 1.8,
-  77: 1.7,
-  78: 3.8,
+  77: null,
+  78: null,
   79: 2.6,
-  80: 3.0,
-  81: 3.1,
+  80: null,
+  81: null,
   82: 1.7,
   83: 1.9,
   84: 1.4,
@@ -216,7 +312,7 @@ const IF_MAP = {
   92: 2.0,
   93: 2.3,
   94: 2.4,
-  95: 1.9,
+  95: null,
   96: 1.9,
   97: 1.7,
   98: 1.4,
@@ -249,8 +345,7 @@ const IF_MAP = {
   125: 0.6,
   126: 0.8
 };
-
-const journals = [
+const casJournals = [
   [1,"eLight","2097-1710","2662-8643",1,"https://www.springer.com/journal/43593"],
   [2,"Advances in Optics and Photonics","1943-8206","-",1,"https://opg.optica.org/aop/home.cfm"],
   [3,"Nature Photonics","1749-4885","1749-4893",1,"https://www.nature.com/nphoton/"],
@@ -328,7 +423,7 @@ const journals = [
   [75,"Optical and Quantum Electronics","0306-8919","1572-817X",4,"https://www.springer.com/journal/11082"],
   [76,"Journal of the European Optical Society-Rapid Publications","1990-2573","1990-2573",4,"https://jeos.springeropen.com/"],
   [77,"Journal of Optical Microsystems","-","2708-5260",4,"https://www.spiedigitallibrary.org/journals/journal-of-optical-microsystems"],
-  [78,"ACS Applied Optical Materials","2771-9855","2771-9855",4,"https://pubs.acs.org/journal/aaoma6"],
+  [78,"ACS Applied Optical Materials","2771-9855","2771-9855",4,"https://pubs.acs.org/journal/aaomcq"],
   [79,"Journal of Physics B: Atomic, Molecular and Optical Physics","0953-4075","1361-6455",4,"https://iopscience.iop.org/journal/0953-4075"],
   [80,"Results in Optics","-","2666-9501",4,"https://www.sciencedirect.com/journal/results-in-optics"],
   [81,"Micro and Nano Engineering","-","2590-0072",4,"https://www.sciencedirect.com/journal/micro-and-nano-engineering"],
@@ -379,65 +474,215 @@ const journals = [
   [126,"Korean Journal of Optics and Photonics","1225-6285","2287-321X",4,"https://www.optics.or.kr/"]
 ];
 
-let activeZone = 'all';
+let casZone = 'all';
 
 function ifStr(rank) {
   const v = IF_MAP[rank];
-  if (v === null || v === undefined) return '<span class="if-none">—</span>';
-  let cls = v >= 10 ? 'if-high' : v >= 4 ? 'if-mid' : 'if-low';
-  return '<span class="' + cls + '">' + v.toFixed(1) + '</span>';
+  return ifHtml(v);
 }
 
-function doFilter() {
-  const q = document.getElementById('search').value.trim().toLowerCase();
-  const filtered = journals.filter(([rank, name, issn, eissn, zone, url]) => {
-    const zoneOk = activeZone === 'all' || zone == activeZone;
-    const nameOk = !q || name.toLowerCase().includes(q) || issn.includes(q) || eissn.includes(q);
-    return zoneOk && nameOk;
-  });
-  render(filtered);
-}
-
-function render(data) {
-  const tbody = document.getElementById('tbody');
-  const empty = document.getElementById('empty');
-  const label = document.getElementById('count-label');
-  if (data.length === 0) {
-    tbody.innerHTML = '';
-    empty.style.display = 'block';
-  } else {
-    empty.style.display = 'none';
-    tbody.innerHTML = data.map(([rank, name, issn, eissn, zone, url]) => `
-      <tr>
-        <td class="rank">${rank}</td>
-        <td class="name-cell">
-          <a class="journal-link" href="${url}" target="_blank" rel="noopener">
-            ${name}
-            <svg class="ext-icon" viewBox="0 0 12 12" fill="none" stroke="currentColor" stroke-width="1.5">
-              <path d="M5 2H2a1 1 0 0 0-1 1v7a1 1 0 0 0 1 1h7a1 1 0 0 0 1-1V7"/>
-              <path d="M8 1h3v3M11 1 6 6" stroke-linecap="round" stroke-linejoin="round"/>
-            </svg>
-          </a>
-        </td>
-        <td class="if-cell">${ifStr(rank)}</td>
-        <td class="issn-cell">${issn}</td>
-        <td class="issn-cell">${eissn}</td>
-        <td><span class="zone-badge badge-${zone}">${zone}区</span></td>
-      </tr>`).join('');
-  }
-  label.textContent = `${data.length} 本期刊`;
-}
-
-document.querySelectorAll('.filter-btn').forEach(btn => {
-  btn.addEventListener('click', () => {
-    document.querySelectorAll('.filter-btn').forEach(b => b.classList.remove('active'));
+function casFilter(btn) {
+  if (btn && btn.dataset) {
+    document.querySelectorAll('#cas-filters .filter-btn').forEach(b => b.classList.remove('active'));
     btn.classList.add('active');
-    activeZone = btn.dataset.zone;
-    doFilter();
+    casZone = btn.dataset.zone;
+  }
+  const q = document.getElementById('cas-search').value.trim().toLowerCase();
+  const filtered = casJournals.filter(([rank, name, issn, eissn, zone]) => {
+    const zOk = casZone === 'all' || zone == casZone;
+    const nOk = !q || name.toLowerCase().includes(q) || issn.includes(q) || eissn.includes(q);
+    return zOk && nOk;
   });
-});
+  const tbody = document.getElementById('cas-tbody');
+  const empty = document.getElementById('cas-empty');
+  document.getElementById('cas-count').textContent = filtered.length + ' 本期刊';
+  if (!filtered.length) { tbody.innerHTML=''; empty.style.display='block'; return; }
+  empty.style.display = 'none';
+  tbody.innerHTML = filtered.map(([rank, name, issn, eissn, zone, url]) => `
+    <tr>
+      <td class="rank-cell">${rank}</td>
+      <td><a class="journal-link" href="${url}" target="_blank" rel="noopener">${name}${EXT}</a></td>
+      <td class="if-cell">${ifStr(rank)}</td>
+      <td class="issn-cell">${issn}</td>
+      <td class="issn-cell">${eissn}</td>
+      <td><span class="zone-badge badge-${zone}">${zone}区</span></td>
+    </tr>`).join('');
+}
 
-render(journals);
+// ═══════════════════════════════════════════════════════════
+//  PANEL B — JCR Optics 分区
+// ═══════════════════════════════════════════════════════════
+const jcrRaw = [
+[1,1,"Nature Photonics",32.9,"Nature Publishing Group","https://www.nature.com/nphoton/"],
+[2,1,"eLight",26.0,"Springer Open","https://elight.springeropen.com/"],
+[3,1,"Advances in Optics and Photonics",23.8,"Optica Publishing Group","https://opg.optica.org/aop/home.cfm"],
+[4,1,"Light: Science & Applications",23.4,"Nature / CIOMP","https://www.nature.com/lsa/"],
+[5,1,"Opto-Electronic Advances",22.4,"CAS · CIOMP","https://www.oejournal.org/oea"],
+[6,1,"Advanced Photonics",20.6,"SPIE · CLP","https://www.spiedigitallibrary.org/journals/advanced-photonics"],
+[7,1,"Laser & Photonics Reviews",11.5,"Wiley-VCH","https://onlinelibrary.wiley.com/journal/18638899"],
+[8,1,"Optica",8.5,"Optica Publishing Group","https://opg.optica.org/optica/home.cfm"],
+[9,1,"Progress in Quantum Electronics",8.3,"Elsevier","https://www.sciencedirect.com/journal/progress-in-quantum-electronics"],
+[10,1,"Advanced Optical Materials",8.0,"Wiley-VCH","https://onlinelibrary.wiley.com/journal/21951071"],
+[11,1,"Photonics Research",7.2,"Optica · CLP","https://opg.optica.org/prj/home.cfm"],
+[12,1,"ACS Photonics",6.7,"ACS Publications","https://pubs.acs.org/journal/apchd5"],
+[13,1,"Nanophotonics",6.6,"De Gruyter","https://www.degruyter.com/journal/key/nanoph/html"],
+[14,1,"EPJ Quantum Technology",5.8,"Springer Open","https://epjquantumtechnology.springeropen.com/"],
+[15,1,"APL Photonics",5.4,"AIP Publishing","https://pubs.aip.org/aip/app"],
+[16,1,"Optics and Laser Technology",5.0,"Elsevier","https://www.sciencedirect.com/journal/optics-and-laser-technology"],
+[17,1,"High Power Laser Science and Engineering",5.0,"Cambridge University Press","https://www.cambridge.org/core/journals/high-power-laser-science-and-engineering"],
+[18,1,"Journal of Lightwave Technology",4.8,"IEEE / Optica","https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=50"],
+[19,1,"Journal of Optical Communications and Networking",4.3,"Optica Publishing","https://opg.optica.org/jocn/home.cfm"],
+[20,1,"Advanced Photonics Research",3.7,"Wiley-VCH","https://onlinelibrary.wiley.com/journal/26999293"],
+[21,1,"Journal of Physics: Photonics",3.8,"IOP Publishing","https://iopscience.iop.org/journal/2515-7647"],
+[22,1,"Optics and Lasers in Engineering",3.5,"Elsevier","https://www.sciencedirect.com/journal/optics-and-lasers-in-engineering"],
+[23,1,"Optics Express",3.3,"Optica Publishing Group","https://opg.optica.org/oe/home.cfm"],
+[24,1,"Optics Letters",3.3,"Optica Publishing Group","https://opg.optica.org/ol/home.cfm"],
+[25,1,"Optical Materials",3.3,"Elsevier","https://www.sciencedirect.com/journal/optical-materials"],
+[26,1,"Journal of Luminescence",3.3,"Elsevier","https://www.sciencedirect.com/journal/journal-of-luminescence"],
+[27,1,"Journal of Quantitative Spectroscopy & Radiative Transfer",3.3,"Elsevier","https://www.sciencedirect.com/journal/journal-of-quantitative-spectroscopy-and-radiative-transfer"],
+[28,1,"Biomedical Optics Express",3.2,"Optica Publishing Group","https://opg.optica.org/boe/home.cfm"],
+[29,1,"Infrared Physics & Technology",3.0,"Elsevier","https://www.sciencedirect.com/journal/infrared-physics-and-technology"],
+[30,1,"Journal of Biomedical Optics",2.9,"SPIE","https://www.spiedigitallibrary.org/journals/journal-of-biomedical-optics"],
+[31,1,"Photonics and Nanostructures: Fundamentals and Applications",2.9,"Elsevier","https://www.sciencedirect.com/journal/photonics-and-nanostructures-fundamentals-and-applications"],
+[32,2,"Optical Materials Express",3.1,"Optica Publishing Group","https://opg.optica.org/ome/home.cfm"],
+[33,2,"Photonic Sensors",2.9,"Springer","https://www.springer.com/journal/13320"],
+[34,2,"Chinese Optics Letters",2.8,"Optica · CLP","https://opg.optica.org/col/home.cfm"],
+[35,2,"Neurophotonics",2.7,"SPIE","https://www.spiedigitallibrary.org/journals/neurophotonics"],
+[36,2,"Optical Fiber Technology",2.6,"Elsevier","https://www.sciencedirect.com/journal/optical-fiber-technology"],
+[37,2,"Journal of Optics",2.6,"IOP Publishing","https://iopscience.iop.org/journal/2040-8986"],
+[38,2,"Optics Communications",2.5,"Elsevier","https://www.sciencedirect.com/journal/optics-communications"],
+[39,2,"IEEE Photonics Technology Letters",2.5,"IEEE","https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=68"],
+[40,2,"Applied Physics B: Lasers and Optics",2.5,"Springer","https://www.springer.com/journal/340"],
+[41,2,"Journal of Infrared, Millimeter, and Terahertz Waves",2.5,"Springer","https://www.springer.com/journal/10762"],
+[42,2,"Journal of Biophotonics",2.4,"Wiley","https://onlinelibrary.wiley.com/journal/18640648"],
+[43,2,"IEEE Journal of Quantum Electronics",2.3,"IEEE","https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=3"],
+[44,2,"Fiber and Integrated Optics",2.2,"Taylor & Francis","https://www.tandfonline.com/journals/ufio20"],
+[45,2,"Advanced Optical Technologies",2.1,"De Gruyter","https://www.degruyter.com/journal/key/aot/html"],
+[46,2,"Chinese Journal of Lasers",2.0,"CLP","https://www.cjlaser.net/"],
+[47,2,"Acta Optica Sinica",2.0,"CLP","https://www.opticsjournal.net/"],
+[48,2,"IEEE Photonics Journal",2.0,"IEEE","https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=4563994"],
+[49,2,"International Journal of Photoenergy",2.0,"Hindawi","https://www.hindawi.com/journals/ijp/"],
+[50,2,"Photonics (MDPI)",1.9,"MDPI","https://www.mdpi.com/journal/photonics"],
+[51,2,"Journal of the Optical Society of America B",1.9,"Optica Publishing","https://opg.optica.org/josab/home.cfm"],
+[52,2,"Laser Physics Letters",1.9,"IOP Publishing","https://iopscience.iop.org/journal/1612-202X"],
+[53,2,"Journal of the European Optical Society – Rapid Publications",1.8,"Springer Open","https://jeos.springeropen.com/"],
+[54,2,"Journal of Photonics for Energy",1.8,"SPIE","https://www.spiedigitallibrary.org/journals/journal-of-photonics-for-energy"],
+[55,2,"International Journal of Optics",1.7,"Hindawi","https://www.hindawi.com/journals/ijo/"],
+[56,2,"IET Optoelectronics",1.7,"IET / Wiley","https://ietresearch.onlinelibrary.wiley.com/journal/17518776"],
+[57,2,"Applied Optics",1.7,"Optica Publishing Group","https://opg.optica.org/ao/home.cfm"],
+[58,2,"Optical and Quantum Electronics",1.7,"Springer","https://www.springer.com/journal/11082"],
+[59,2,"Opto-Electronics Review",1.7,"Elsevier","https://www.sciencedirect.com/journal/opto-electronics-review"],
+[60,2,"Journal of Innovative Optical Health Sciences",1.6,"World Scientific","https://www.worldscientific.com/worldscinet/jiohs"],
+[61,2,"Journal of Electronic Imaging",1.5,"SPIE","https://www.spiedigitallibrary.org/journals/journal-of-electronic-imaging"],
+[62,2,"Laser Physics",1.5,"IOP Publishing","https://iopscience.iop.org/journal/1555-6611"],
+[63,2,"Journal of the Optical Society of America A",1.5,"Optica Publishing","https://opg.optica.org/josaa/home.cfm"],
+[64,3,"Journal of Laser Applications",2.4,"AIP / LIA","https://pubs.aip.org/lia/jla"],
+[65,3,"Optical Engineering",1.3,"SPIE","https://www.spiedigitallibrary.org/journals/optical-engineering"],
+[66,3,"Microwave and Optical Technology Letters",1.3,"Wiley","https://onlinelibrary.wiley.com/journal/10982760"],
+[67,3,"Photonic Network Communications",1.3,"Springer","https://www.springer.com/journal/11107"],
+[68,3,"Optical Review",1.3,"Springer","https://www.springer.com/journal/10043"],
+[69,3,"Optics Continuum",1.4,"Optica Publishing Group","https://opg.optica.org/optcon/home.cfm"],
+[70,3,"Journal of Optics-India",1.4,"Springer","https://www.springer.com/journal/12596"],
+[71,3,"Computer Optics",1.2,"IPSI RAS","https://computeroptics.ru/eng/"],
+[72,3,"Journal of Nanophotonics",1.1,"SPIE","https://www.spiedigitallibrary.org/journals/journal-of-nanophotonics"],
+[73,3,"Journal of Modern Optics",1.0,"Taylor & Francis","https://www.tandfonline.com/journals/tmop20"],
+[74,3,"Journal of Russian Laser Research",1.0,"Springer","https://www.springer.com/journal/10946"],
+[75,3,"Leukos",1.0,"Taylor & Francis","https://www.tandfonline.com/journals/ulks20"],
+[76,3,"Journal of Laser Micro Nanoengineering",1.0,"JLPS","https://www.jlps.gr.jp/jlmn/"],
+[77,3,"Acta Photonica Sinica",1.0,"CLP","https://www.opticsjournal.net/"],
+[78,3,"Laser & Optoelectronics Progress",1.0,"CLP","https://www.opticsjournal.net/"],
+[79,3,"Optica Applicata",1.0,"Wrocław Univ. of Tech.","https://www.opticaapplicata.pwr.edu.pl/"],
+[80,3,"Optical Memory and Neural Networks",0.9,"Springer","https://www.springer.com/journal/11018"],
+[81,3,"Optics and Spectroscopy",0.9,"Springer","https://www.springer.com/journal/11766"],
+[82,3,"Journal of Nonlinear Optical Physics & Materials",0.9,"World Scientific","https://www.worldscientific.com/worldscinet/jnopm"],
+[83,3,"Optoelectronics Letters",0.9,"Springer","https://www.springer.com/journal/11801"],
+[84,3,"Korean Journal of Optics and Photonics",0.8,"OSK","https://www.optics.or.kr/"],
+[85,3,"Current Optics and Photonics",0.8,"OSK / Optica","https://www.copp.or.kr/"],
+[86,3,"Ukrainian Journal of Physical Optics",0.8,"UJPO","https://ujpo.org/"],
+[87,3,"Chinese Optics",1.5,"CIOMP","https://www.chineseoptics.net.cn/"],
+[88,3,"Journal of Infrared and Millimeter Waves",1.5,"SITP","http://journal.sitp.ac.cn/hwyhmb/"],
+[89,3,"Atmospheric and Oceanic Optics",0.7,"Springer","https://www.springer.com/journal/10492"],
+[90,3,"Journal of Optoelectronics and Advanced Materials",0.7,"INOE","https://joam.inoe.ro/"],
+[91,3,"Optica Pura y Aplicada",0.6,"SEDOPTICA","https://www.sedoptica.es/index.php/opa"],
+[92,3,"Journal of Optical Technology",0.6,"Optica Publishing","https://opg.optica.org/jot/home.cfm"],
+[93,3,"Lasers in Engineering",0.5,"Old City Publishing","https://www.oldcitypublishing.com/journals/lie-home/"],
+[94,3,"Optoelectronics and Advanced Materials – RC",0.5,"INOE","https://oam-rc.inoe.ro/"],
+[95,4,"Photonics Letters of Poland",0.5,"Polish Photon. Soc.","https://photonics.pl/PLP/"],
+[96,4,"Light & Engineering",0.4,"Light Research Institute","https://www.ltj.ru/en/"],
+[97,4,"Journal of Optical Microsystems",null,"SPIE","https://www.spiedigitallibrary.org/journals/journal-of-optical-microsystems"],
+[98,4,"ACS Applied Optical Materials",null,"ACS Publications","https://pubs.acs.org/journal/aaomcq"],
+[99,4,"Results in Optics",null,"Elsevier","https://www.sciencedirect.com/journal/results-in-optics"],
+[100,4,"Journal of Micro-Nanopatterning, Materials & Metrology",1.8,"SPIE","https://www.spiedigitallibrary.org/journals/journal-of-micro-nanopatterning-materials-and-metrology"],
+[101,4,"Optical Switching and Networking",2.1,"Elsevier","https://www.sciencedirect.com/journal/optical-switching-and-networking"],
+[102,4,"Journal of X-Ray Science and Technology",1.7,"IOS Press","https://www.iospress.com/catalog/journals/journal-of-x-ray-science-and-technology"],
+[103,4,"International Journal of Optomechatronics",1.2,"Taylor & Francis","https://www.tandfonline.com/journals/uopt20"],
+[104,4,"Lighting Research & Technology",1.4,"SAGE","https://journals.sagepub.com/home/lrt"],
+[105,4,"Color Research and Application",1.5,"Wiley","https://onlinelibrary.wiley.com/journal/15206378"],
+[106,4,"Journal of Synchrotron Radiation",2.0,"IUCr / Wiley","https://journals.iucr.org/s/"],
+[107,4,"IEEE Transactions on Terahertz Science and Technology",4.2,"IEEE","https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=5503870"],
+[108,4,"Displays",3.7,"Elsevier","https://www.sciencedirect.com/journal/displays"],
+[109,4,"Applied Spectroscopy",2.2,"SAGE / SAS","https://journals.sagepub.com/home/asp"],
+[110,4,"Journal of Near Infrared Spectroscopy",1.9,"SAGE","https://journals.sagepub.com/home/nir"],
+[111,4,"Microelectronic Engineering",3.5,"Elsevier","https://www.sciencedirect.com/journal/microelectronic-engineering"],
+[112,4,"Journal of Astronomical Telescopes, Instruments, and Systems",1.9,"SPIE","https://www.spiedigitallibrary.org/journals/journal-of-astronomical-telescopes-instruments-and-systems"],
+[113,4,"Optics and Photonics News",null,"Optica Publishing Group","https://www.optica-opn.org/home/"],
+[114,4,"Optica Quantum",null,"Optica Publishing Group","https://opg.optica.org/opticaq/home.cfm"],
+[115,4,"Color Research and Application",1.5,"Wiley","https://onlinelibrary.wiley.com/journal/15206378"],
+[116,4,"Micro and Nano Engineering",null,"Elsevier","https://www.sciencedirect.com/journal/micro-and-nano-engineering"],
+[117,4,"Journal of Photonics for Energy",1.8,"SPIE","https://www.spiedigitallibrary.org/journals/journal-of-photonics-for-energy"],
+[118,4,"Light & Engineering",0.4,"Light Research Institute","https://www.ltj.ru/en/"],
+[119,4,"Photonics Letters of Poland",0.5,"PLP","https://photonics.pl/PLP/"],
+[120,4,"Journal of Optoelectronics and Advanced Materials",0.7,"INOE","https://joam.inoe.ro/"],
+[121,4,"Optoelectronics and Advanced Materials – RC",0.5,"INOE","https://oam-rc.inoe.ro/"],
+[122,4,"Korean Journal of Optics and Photonics",0.8,"OSK","https://www.optics.or.kr/"],
+[123,4,"Ukrainian Journal of Physical Optics",0.8,"UJPO","https://ujpo.org/"],
+[124,4,"Optica Pura y Aplicada",0.6,"SEDOPTICA","https://www.sedoptica.es/index.php/opa"],
+[125,4,"Lasers in Engineering",0.5,"Old City Publishing","https://www.oldcitypublishing.com/journals/lie-home/"],
+];
+const seenJcr = new Set();
+const jcrJournals = jcrRaw.filter(r => { if (seenJcr.has(r[2])) return false; seenJcr.add(r[2]); return true; });
+
+const QL = ['','Q1 顶刊（排名 1–31，前 25%）','Q2 高水平（32–63，25–50%）','Q3 良好（64–94，50–75%）','Q4 一般（95–125，后 25%）'];
+let jcrQ = 'all';
+
+function jcrFilter(btn) {
+  if (btn && btn.dataset) {
+    document.querySelectorAll('#jcr-filters .filter-btn').forEach(b => b.classList.remove('active'));
+    btn.classList.add('active');
+    jcrQ = btn.dataset.q;
+  }
+  const q = document.getElementById('jcr-search').value.trim().toLowerCase();
+  const data = jcrJournals.filter(([rank, qv, name, IF, pub]) => {
+    const qOk = jcrQ === 'all' || qv == jcrQ;
+    const nOk = !q || name.toLowerCase().includes(q) || pub.toLowerCase().includes(q);
+    return qOk && nOk;
+  });
+  const tbody = document.getElementById('jcr-tbody');
+  const empty = document.getElementById('jcr-empty');
+  document.getElementById('jcr-count').textContent = data.length + ' 本期刊';
+  if (!data.length) { tbody.innerHTML=''; empty.style.display='block'; return; }
+  empty.style.display = 'none';
+  let lastQ = -1;
+  const rows = [];
+  data.forEach(([rank, qv, name, IF, pub, url]) => {
+    if (jcrQ === 'all' && qv !== lastQ) {
+      rows.push(`<tr class="sep-row"><td colspan="5">${QL[qv]}</td></tr>`);
+      lastQ = qv;
+    }
+    rows.push(`<tr>
+      <td class="rank-cell">${rank}</td>
+      <td><span class="q-badge bq${qv}">Q${qv}</span></td>
+      <td><a class="journal-link" href="${url}" target="_blank" rel="noopener">${name}${EXT}</a></td>
+      <td class="if-cell">${ifHtml(IF)}</td>
+      <td class="pub-cell">${pub}</td>
+    </tr>`);
+  });
+  tbody.innerHTML = rows.join('');
+}
+
+// ─── Init ─────────────────────────────────────────────────
+casFilter();
+jcrFilter();
 </script>
 </body>
 </html>
