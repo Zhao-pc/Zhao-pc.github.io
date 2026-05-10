@@ -1,0 +1,142 @@
+<!-- Google Scholar Citation Stats -->
+<!-- Add this to your about.md: {% include google-scholar-stats.html %} -->
+
+<style>
+.scholar-stats {
+  display: flex;
+  justify-content: center;
+  gap: 16px;
+  flex-wrap: wrap;
+  margin: 20px 0;
+  padding: 16px;
+  background: linear-gradient(135deg, #f0f4ff 0%, #e8f0fe 100%);
+  border-radius: 12px;
+  border: 1px solid #d2dff7;
+}
+
+[data-theme="dark"] .scholar-stats,
+.dark .scholar-stats {
+  background: linear-gradient(135deg, #1a2332 0%, #1e293b 100%);
+  border-color: #334155;
+}
+
+.scholar-stat-item {
+  text-align: center;
+  min-width: 100px;
+  padding: 12px 20px;
+  background: rgba(255,255,255,0.7);
+  border-radius: 10px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.06);
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.scholar-stat-item:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 4px 16px rgba(0,0,0,0.12);
+}
+
+[data-theme="dark"] .scholar-stat-item,
+.dark .scholar-stat-item {
+  background: rgba(30,41,59,0.8);
+  box-shadow: 0 2px 8px rgba(0,0,0,0.2);
+}
+
+.scholar-stat-number {
+  font-size: 28px;
+  font-weight: 700;
+  color: #1a73e8;
+  line-height: 1.2;
+}
+
+[data-theme="dark"] .scholar-stat-number,
+.dark .scholar-stat-number {
+  color: #8ab4f8;
+}
+
+.scholar-stat-label {
+  font-size: 12px;
+  color: #5f6368;
+  margin-top: 4px;
+  font-weight: 500;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+}
+
+[data-theme="dark"] .scholar-stat-label,
+.dark .scholar-stat-label {
+  color: #9aa0a6;
+}
+
+.scholar-link {
+  display: block;
+  text-align: center;
+  margin-top: 8px;
+  font-size: 12px;
+  color: #1a73e8;
+  text-decoration: none;
+}
+
+.scholar-link:hover {
+  text-decoration: underline;
+}
+
+.scholar-icon {
+  width: 16px;
+  height: 16px;
+  vertical-align: middle;
+  margin-right: 4px;
+}
+</style>
+
+<div class="scholar-stats">
+  <div class="scholar-stat-item">
+    <div class="scholar-stat-number" id="scholar-citations">
+      {{ site.data.google_scholar_stats.citations_all | default: 0 }}
+    </div>
+    <div class="scholar-stat-label">📚 引用 Citations</div>
+  </div>
+  <div class="scholar-stat-item">
+    <div class="scholar-stat-number" id="scholar-hindex">
+      {{ site.data.google_scholar_stats.h_index_all | default: 0 }}
+    </div>
+    <div class="scholar-stat-label">📊 h-index</div>
+  </div>
+  <div class="scholar-stat-item">
+    <div class="scholar-stat-number" id="scholar-i10index">
+      {{ site.data.google_scholar_stats.i10_index_all | default: 0 }}
+    </div>
+    <div class="scholar-stat-label">📈 i10-index</div>
+  </div>
+</div>
+
+<a class="scholar-link" href="https://scholar.google.com/citations?user={{ site.data.google_scholar_stats.scholar_id }}" target="_blank">
+  <img class="scholar-icon" src="https://scholar.google.com/favicon.ico" alt="GS"> View full profile on Google Scholar
+</a>
+
+<script>
+// Animate counter from 0 to target value
+function animateCounter(el, target, duration) {
+  if (target <= 0) return;
+  let start = 0;
+  const step = Math.max(1, Math.floor(target / (duration / 16)));
+  const timer = setInterval(() => {
+    start += step;
+    if (start >= target) {
+      el.textContent = target;
+      clearInterval(timer);
+    } else {
+      el.textContent = start;
+    }
+  }, 16);
+}
+
+document.addEventListener('DOMContentLoaded', function() {
+  const cit = document.getElementById('scholar-citations');
+  const hid = document.getElementById('scholar-hindex');
+  const i10 = document.getElementById('scholar-i10index');
+
+  if (cit) animateCounter(cit, parseInt(cit.textContent) || 0, 1200);
+  if (hid) animateCounter(hid, parseInt(hid.textContent) || 0, 800);
+  if (i10) animateCounter(i10, parseInt(i10.textContent) || 0, 800);
+});
+</script>
