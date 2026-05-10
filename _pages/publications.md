@@ -6,6 +6,19 @@ author_profile: true
 ---
 
 You can find my full publications in [Google Scholar](https://scholar.google.com.hk/citations?user=tUOE-8IAAAAJ&hl=zh-CN).
+<p align="center">
+<a href="https://scholar.google.com/citations?user={{ site.data.google_scholar_stats.scholar_id }}" target="_blank">
+<b>{{ site.data.google_scholar_stats.citations_all }}</b> Citations
+</a> ·
+
+<a href="https://scholar.google.com/citations?user={{ site.data.google_scholar_stats.scholar_id }}" target="_blank">
+<b>{{ site.data.google_scholar_stats.h_index_all }}</b> h-index
+</a> ·
+
+<a href="https://scholar.google.com/citations?user={{ site.data.google_scholar_stats.scholar_id }}" target="_blank">
+<b>{{ site.data.google_scholar_stats.i10_index_all }}</b> i10-index
+</a>
+</p>
 
 ---
 
