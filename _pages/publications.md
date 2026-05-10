@@ -11,6 +11,25 @@ You can find my full publications on [Google Scholar](https://scholar.google.com
 **{{ site.data.google_scholar_stats.h_index_all }}** h-index ·
 **{{ site.data.google_scholar_stats.i10_index_all }}** i10-index
 
+<div style="display:flex;justify-content:center;gap:12px;flex-wrap:wrap;margin:20px 0;">
+  <a href="https://scholar.google.com/citations?user=tUOE-8IAAAAJ" target="_blank" style="text-align:center;text-decoration:none;">
+    <div style="font-size:26px;font-weight:bold;color:#1a73e8;">484</div>
+    <div style="font-size:12px;color:#666;">Citations</div>
+  </a>
+
+  <a href="https://scholar.google.com/citations?user=tUOE-8IAAAAJ" target="_blank" style="text-align:center;text-decoration:none;">
+    <div style="font-size:26px;font-weight:bold;color:#1a73e8;">12</div>
+    <div style="font-size:12px;color:#666;">h-index</div>
+  </a>
+
+  <a href="https://scholar.google.com/citations?user=tUOE-8IAAAAJ" target="_blank" style="text-align:center;text-decoration:none;">
+    <div style="font-size:26px;font-weight:bold;color:#1a73e8;">14</div>
+    <div style="font-size:12px;color:#666;">i10-index</div>
+  </a>
+</div>
+
+
+
 ---
 
 ## Journal Articles
