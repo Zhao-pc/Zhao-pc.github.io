@@ -6,43 +6,52 @@ author_profile: true
 ---
 
 You can find my full publications on [Google Scholar](https://scholar.google.com/citations?user={{ site.data.google_scholar_stats.scholar_id }}).
+<div style="display:flex;justify-content:flex-start;gap:14px;flex-wrap:wrap;margin:24px 0;">
 
-<div style="display:flex;justify-content:center;gap:14px;flex-wrap:wrap;margin:24px 0;">
-  
-  <a href="https://scholar.google.com/citations?user={{ site.data.google_scholar_stats.scholar_id }}" 
+  <a href="https://scholar.google.com/citations?user={{ site.data.google_scholar_stats.scholar_id }}"
      target="_blank"
      style="text-decoration:none;text-align:center;padding:14px 24px;border-radius:12px;background:#f8faff;border:1px solid #e3ecff;min-width:110px;">
-    <div style="font-size:30px;font-weight:700;color:#1a73e8;line-height:1;">
+    
+    <div style="font-size:30px;font-weight:700;color:#1a73e8;">
       {{ site.data.google_scholar_stats.citations_all }}
     </div>
+
     <div style="margin-top:6px;font-size:13px;color:#666;">
       Citations
     </div>
+
   </a>
 
-  <a href="https://scholar.google.com/citations?user={{ site.data.google_scholar_stats.scholar_id }}" 
+  <a href="https://scholar.google.com/citations?user={{ site.data.google_scholar_stats.scholar_id }}"
      target="_blank"
      style="text-decoration:none;text-align:center;padding:14px 24px;border-radius:12px;background:#f8faff;border:1px solid #e3ecff;min-width:110px;">
-    <div style="font-size:30px;font-weight:700;color:#1a73e8;line-height:1;">
+
+    <div style="font-size:30px;font-weight:700;color:#1a73e8;">
       {{ site.data.google_scholar_stats.h_index_all }}
     </div>
+
     <div style="margin-top:6px;font-size:13px;color:#666;">
       h-index
     </div>
+
   </a>
 
-  <a href="https://scholar.google.com/citations?user={{ site.data.google_scholar_stats.scholar_id }}" 
+  <a href="https://scholar.google.com/citations?user={{ site.data.google_scholar_stats.scholar_id }}"
      target="_blank"
      style="text-decoration:none;text-align:center;padding:14px 24px;border-radius:12px;background:#f8faff;border:1px solid #e3ecff;min-width:110px;">
-    <div style="font-size:30px;font-weight:700;color:#1a73e8;line-height:1;">
+
+    <div style="font-size:30px;font-weight:700;color:#1a73e8;">
       {{ site.data.google_scholar_stats.i10_index_all }}
     </div>
+
     <div style="margin-top:6px;font-size:13px;color:#666;">
       i10-index
     </div>
+
   </a>
 
 </div>
+
 
 
 
