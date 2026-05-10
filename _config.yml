@@ -126,7 +126,16 @@ include:
 exclude:
   - "*.sublime-project"
   - "*.sublime-workspace"
+  
+  - google_scholar_crawler
+  - Gemfile
+  - Gemfile.lock
+  - LICENSE
+  - README.md
+  - CHANGELOG.md
+  - package.json
   - .asset-cache
+  
   - .bundle
   - .jekyll-assets-cache
   - .sass-cache
