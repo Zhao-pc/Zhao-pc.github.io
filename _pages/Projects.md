@@ -6,7 +6,7 @@ author_profile: true
 redirect_from:
   - /resume
 ---
-[3] National-level Excellent Young Talents Program, 2026–2029, CNY$ 1,000,000
+[3] National-level Excellent Young Talents Program, 2026–2029
 
 [2] Alexander von Humboldt Foundation (Germany), Humboldt Research Fellowship, Apr 2025–Mar 2027, €90,000
 
