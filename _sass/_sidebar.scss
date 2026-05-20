@@ -130,14 +130,7 @@
   }
 }
 
-/* ---------- Sidebar icons dark mode ---------- */
-@media (prefers-color-scheme: dark) {
-  .author-location-icon {
-    color: #fff !important;   // 字体图标白色
-    fill: #fff !important;    // SVG 填充白色
-    transition: color 0.3s ease, fill 0.3s ease;
-  }
-}
+
 
 .author__urls-wrapper {
   position: relative;
