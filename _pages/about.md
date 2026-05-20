@@ -16,7 +16,7 @@ I am <strong>Pengcheng Zhao</strong>, currently a Professor at <strong>Beihang U
 ![avatar](/images/sdjz_zsl.jpg)
 
 <p style="text-align: justify;">
-My research interests include laser spectroscopy, fiber-optic sensors, and fiber-optic devices. I have participated in four research grants, published over 10 peer-reviewed papers in journals such as <strong><em>Nature Communications</em></strong>, <strong><em>Laser &amp; Photonics Reviews</em></strong>, <strong><em>Nano Letters</em></strong>, and co-authored 3 national patents. I also serve as a reviewer for international journals, such as <em>ACS Sensors</em>, <em>Journal of Lightwave Technology</em>, <em>Optics Letters</em>, <em>Optics Express</em>. 
+My research interests include laser spectroscopy, fiber-optic sensors, and fiber-optic devices. I have served as PI or Co-PI for 3 research grant projects, published over 10 peer-reviewed papers in journals such as <strong><em>Nature Communications</em></strong>, <strong><em>Laser &amp; Photonics Reviews</em></strong>, <strong><em>Nano Letters</em></strong>, and co-authored 3 national patents. I also serve as a reviewer for international journals, such as <em>ACS Sensors</em>, <em>Journal of Lightwave Technology</em>, <em>Optics Letters</em>, <em>Optics Express</em>. 
 </p>
 
 
