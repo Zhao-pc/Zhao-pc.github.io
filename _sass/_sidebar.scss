@@ -252,11 +252,3 @@
   font-family: $sans-serif; 
   font-size: $type-size-5;
 }
-
-/* 深色模式下作者位置图标变白 */
-@media (prefers-color-scheme: dark) {
-  .author-location-icon {
-    color: #fff !important;   // 字体图标白色
-    transition: color 0.3s ease;
-  }
-}
