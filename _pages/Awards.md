@@ -7,6 +7,9 @@ redirect_from:
   - /resume
 ---
 ## After PhD Graduation
+## 2025
+- **<span style="color:#BE4040">National-level Excellent Young Scientists</span>**
+  
 ## 2024
 - **<span style="color:#BE4040">Humboldt Research Fellowship for Postdocs</span>**, Alexander von Humboldt-Stiftung (AvH)  
 - **<span style="color:#BE4040">Best Oral Presentation Award</span>** at OFS-China 2024, Chinese Society for Optical Engineering (CSOE)
