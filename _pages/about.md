@@ -55,9 +55,10 @@ My research interests include laser spectroscopy, fiber-optic sensors and device
 </p>
 
 ---
-
+<!--
 ## **Additional Information**
 
 <p style="text-align: justify;">
 You can find my <a href="../files/Zhao_Pengcheng_CV_en.pdf">CV</a> / <a href="../files/赵鹏程_简历.pdf">履历</a> (up to 07/2025) here.
 </p>
+-->
