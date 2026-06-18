@@ -122,261 +122,276 @@ permalink: /Journal/
 
 <script>
 const IF_MAP = {
-  1: 26.0,
-  2: 23.8,
-  3: 32.9,
-  4: 23.4,
-  5: 19.1,
-  6: null,
-  7: 20.6,
-  8: 22.4,
-  9: 8.3,
-  10: 8.5,
-  11: 10.6,
-  12: 7.2,
-  13: 9.9,
-  14: 9.9,
-  15: 5.0,
-  16: 6.7,
-  17: 5.8,
-  18: 6.6,
-  19: 5.4,
-  20: 8.0,
-  21: 4.8,
-  22: 7.1,
-  23: 4.3,
-  24: 4.5,
-  25: 3.1,
-  26: 8.4,
-  27: 6.0,
-  28: 3.5,
-  29: 3.8,
-  30: 4.2,
-  31: 3.2,
-  32: 3.7,
-  33: 2.9,
-  34: 2.7,
-  35: 2.0,
-  36: 2.0,
-  37: 2.5,
-  38: 2.7,
-  39: 3.3,
-  40: 3.3,
-  41: 3.3,
-  42: 3.0,
-  43: 2.8,
-  44: 3.3,
-  45: 2.1,
-  46: 3.7,
-  47: 1.5,
-  48: 3.2,
-  49: 2.0,
-  50: 1.9,
-  51: 3.5,
-  52: 1.9,
-  53: 1.0,
-  54: 1.2,
-  55: 1.4,
-  56: 2.4,
-  57: 2.5,
-  58: 2.6,
-  59: 2.2,
-  60: 3.1,
-  61: 1.6,
-  62: 2.0,
-  63: 0.8,
-  64: 2.5,
-  65: 2.9,
-  66: 2.3,
-  67: 1.4,
-  68: 3.3,
-  69: 2.5,
-  70: 2.6,
-  71: 1.5,
-  72: 1.0,
-  73: 1.0,
-  74: 1.5,
-  75: 1.7,
-  76: 1.8,
-  77: 1.7,
-  78: 3.8,
-  79: 2.6,
-  80: 3.0,
-  81: 3.1,
-  82: 1.7,
-  83: 1.9,
-  84: 1.4,
-  85: 1.9,
-  86: 1.5,
-  87: 1.8,
-  88: 2.0,
-  89: 1.7,
-  90: 1.3,
-  91: 2.1,
-  92: 2.0,
-  93: 2.3,
-  94: 2.4,
-  95: 1.9,
-  96: 1.9,
-  97: 1.7,
-  98: 1.4,
-  99: 1.5,
-  100: 0.9,
-  101: 1.3,
-  102: 1.0,
-  103: 1.3,
-  104: 1.3,
-  105: 1.8,
-  106: 1.2,
-  107: 1.5,
-  108: 1.0,
-  109: 1.7,
-  110: 0.9,
-  111: 0.7,
-  112: 1.1,
-  113: 0.8,
-  114: 0.9,
-  115: 1.0,
-  116: 0.6,
-  117: 1.0,
-  118: 0.5,
-  119: 1.0,
-  120: 0.5,
-  121: 0.4,
-  122: 0.7,
-  123: 0.9,
-  124: 0.5,
-  125: 0.6,
-  126: 0.8
+  1: 31.4,   // eLight
+  2: 30.1,   // Advances in Optics and Photonics
+  3: 38.1,   // Nature Photonics
+  4: 24.0,   // Light: Science & Applications
+  5: 18.0,   // PhotoniX
+  6: 26.9,   // Opto-Electronic Science
+  7: 19.5,   // Advanced Photonics
+  8: 22.4,   // Opto-Electronic Advances
+  9: 10.8,   // Progress in Quantum Electronics
+  10: 8.8,   // Optica
+  11: 10.2,  // Light: Advanced Manufacturing
+  12: 7.1,   // Photonics Research
+  13: 9.7,   // Laser & Photonics Reviews
+  14: 7.5,   // Ultrafast Science
+
+  15: 6.1,   // High Power Laser Science and Engineering
+  16: 6.0,   // ACS Photonics
+  17: 4.5,   // EPJ Quantum Technology
+  18: 6.8,   // Nanophotonics
+  19: 5.7,   // APL Photonics
+  20: 7.2,   // Advanced Optical Materials
+  21: 5.2,   // Journal of Lightwave Technology
+  22: 8.6,   // Chip
+  23: 5.1,   // Journal of Optical Communications and Networking
+  24: 5.2,   // Optics and Laser Technology
+  25: 4.5,   // IEEE Journal of Selected Topics in Quantum Electronics
+  26: 5.0,   // Image and Vision Computing
+  27: 6.3,   // Advanced Photonics Nexus
+  28: 4.2,   // Optics and Lasers in Engineering
+  29: 4.7,   // Journal of Physics: Photonics
+  30: 3.6,   // IEEE Transactions on Terahertz Science and Technology
+  31: 3.2,   // Biomedical Optics Express
+  32: 3.9,   // Displays
+  33: 4.6,   // Photonic Sensors
+  34: 3.6,   // Neurophotonics
+  35: 2.0,   // Chinese Journal of Lasers
+  36: 1.7,   // Acta Optica Sinica
+
+  37: 3.3,   // Journal of Biomedical Optics
+  38: 3.0,   // Physical Review A
+  39: 3.4,   // Optics Express
+  40: 4.3,   // Optical Materials
+  41: 3.3,   // Optics Letters
+  42: 3.8,   // Infrared Physics & Technology
+  43: 2.5,   // Chinese Optics Letters
+  44: 3.8,   // Journal of Luminescence
+  45: 5.5,   // Optical Switching and Networking
+  46: 4.0,   // Advanced Photonics Research
+  47: 2.0,   // Color Research and Application
+  48: 4.3,   // Advanced Quantum Technologies
+  49: 2.8,   // Journal of Synchrotron Radiation
+  50: 3.0,   // International Journal of Imaging Systems and Technology
+  51: 3.3,   // Microelectronic Engineering
+  52: 1.5,   // Journal of Astronomical Telescopes, Instruments, and Systems
+  53: 1.7,   // Leukos
+  54: 3.2,   // International Journal of Optomechatronics
+  55: 2.0,   // Lighting Research & Technology
+  56: 2.0,   // Journal of Biophotonics
+  57: 2.4,   // IEEE Photonics Technology Letters
+  58: 2.7,   // Optical Fiber Technology
+  59: 2.7,   // Optics Communications
+  60: 2.6,   // Optical Materials Express
+  61: 1.9,   // Journal of Innovative Optical Health Sciences
+  62: 2.6,   // IEEE Photonics Journal
+  63: 2.7,   // Ukrainian Journal of Physical Optics
+  64: 1.8,   // Applied Physics B: Lasers and Optics
+  65: 3.5,   // Photonics and Nanostructures
+  66: 1.9,   // IEEE Journal of Quantum Electronics
+  67: 1.5,   // Fiber and Integrated Optics
+  68: 2.0,   // Journal of Quantitative Spectroscopy & Radiative Transfer
+  69: 3.1,   // Journal of Infrared, Millimeter, and Terahertz Waves
+  70: 2.6,   // Journal of Optics
+  71: 1.0,   // Chinese Optics
+  72: 1.2,   // Laser & Optoelectronics Progress
+  73: 0.7,   // Acta Photonica Sinica
+  74: 0.6,   // Journal of Infrared and Millimeter Waves
+
+  75: 1.7,   // Optical and Quantum Electronics
+  76: 1.7,   // Journal of the European Optical Society-Rapid Publications
+  77: 2.0,   // Journal of Optical Microsystems
+  78: 3.4,   // ACS Applied Optical Materials
+  79: 1.7,   // Journal of Physics B
+  80: 3.3,   // Results in Optics
+  81: 4.6,   // Micro and Nano Engineering
+  82: 1.6,   // Journal of X-Ray Science and Technology
+  83: 2.1,   // Photonics
+  84: 2.2,   // Journal of Optics-India
+  85: 1.9,   // Journal of the Optical Society of America B
+  86: 1.5,   // Journal of the Optical Society of America A
+  87: 2.3,   // Journal of Micro-Nanopatterning, Materials, and Metrology
+  88: 4.5,   // International Journal of Photoenergy
+  89: 1.7,   // Applied Optics
+  90: 1.5,   // Photonic Network Communications
+  91: 3.2,   // Advanced Optical Technologies
+  92: 2.0,   // Journal of the Society for Information Display
+  93: 1.8,   // European Physical Journal D
+  94: 2.1,   // Journal of Laser Applications
+  95: 1.8,   // Optics
+  96: 1.5,   // Laser Physics Letters
+  97: 2.8,   // IET Optoelectronics
+  98: 1.5,   // Optics Continuum
+  99: 1.1,   // Laser Physics
+  100: 1.4,  // Journal of Nonlinear Optical Physics & Materials
+  101: 1.0,  // Optical Review
+  102: 1.7,  // International Journal of Optics
+  103: 1.2,  // Optical Engineering
+  104: 1.1,  // Microwave and Optical Technology Letters
+  105: 2.5,  // Journal of Photonics for Energy
+  106: 1.1,  // Computer Optics
+  107: 1.0,  // Journal of Electronic Imaging
+  108: 1.0,  // Journal of Russian Laser Research
+  109: 0.9,  // Opto-Electronics Review
+  110: 0.9,  // Optical Memory and Neural Networks
+  111: 0.7,  // Atmospheric and Oceanic Optics
+  112: 1.0,  // Journal of Nanophotonics
+  113: 1.0,  // Current Optics and Photonics
+  114: 1.4,  // Optoelectronics Letters
+  115: 0.9,  // Journal of Modern Optics
+  116: 0.4,  // Journal of Optical Technology
+  117: 1.0,  // Journal of Laser Micro Nanoengineering
+  118: 0.8,  // Photonics Letters of Poland
+  119: 0.5,  // Optica Applicata
+  120: 0.4,  // Lasers in Engineering
+  121: 0.4,  // Light & Engineering
+  122: 0.6,  // Journal of Optoelectronics and Advanced Materials
+  123: 0.7,  // Optics and Spectroscopy
+  124: 0.5,  // Optoelectronics and Advanced Materials-Rapid Communications
+  125: 0.2,  // Optica Pura y Aplicada
+  126: 0.3,  // Korean Journal of Optics and Photonics
+
+  127: 6.0,  // Advanced Devices & Instrumentation
+  128: 5.1,  // Optica Quantum
+  129: 1.9   // Frontiers in Photonics
 };
 
 const journals = [
-  [1,"eLight","2097-1710","2662-8643",1,"https://www.springer.com/journal/43593"],
-  [2,"Advances in Optics and Photonics","1943-8206","-",1,"https://opg.optica.org/aop/home.cfm"],
-  [3,"Nature Photonics","1749-4885","1749-4893",1,"https://www.nature.com/nphoton/"],
-  [4,"<b>Light: Science &amp; Applications</b>","2095-5545","2047-7538",1,"https://www.nature.com/lsa/"],
-  [5,"PhotoniX","-","2662-1991",1,"https://www.springer.com/journal/43074"],
-  [6,"Opto-Electronic Science","2097-0382","2097-4000",1,"https://www.oejournal.org/oes"],
-  [7,"Advanced Photonics","-","2577-5421",1,"https://www.spiedigitallibrary.org/journals/advanced-photonics"],
-  [8,"Opto-Electronic Advances","2096-4579","2097-3993",1,"https://www.oejournal.org/oea"],
-  [9,"Progress in Quantum Electronics","0079-6727","1873-1627",1,"https://www.sciencedirect.com/journal/progress-in-quantum-electronics"],
-  [10,"Optica","2334-2536","2334-2536",1,"https://opg.optica.org/optica/home.cfm"],
-  [11,"<b>Light: Advanced Manufacturing</b>","2689-9620","2831-4093",1,"https://www.light-am.com/"],
-  [12,"Photonics Research","2327-9125","2327-9125",1,"https://opg.optica.org/prj/home.cfm"],
-  [13,"<b>Laser &amp; Photonics Reviews</b>","1863-8880","1863-8899",1,"https://onlinelibrary.wiley.com/journal/18638899"],
-  [14,"Ultrafast Science","2097-0331","2765-8791",1,"https://spj.science.org/journal/ultrafastscience"],
-  [15,"High Power Laser Science and Engineering","2095-4719","2052-3289",2,"https://www.cambridge.org/core/journals/high-power-laser-science-and-engineering"],
-  [16,"ACS Photonics","2330-4022","-",2,"https://pubs.acs.org/journal/apchd5"],
-  [17,"EPJ Quantum Technology","2662-4400","2196-0763",2,"https://epjquantumtechnology.springeropen.com/"],
-  [18,"Nanophotonics","2192-8606","2192-8614",2,"https://www.degruyter.com/journal/key/nanoph/html"],
-  [19,"APL Photonics","2378-0967","2378-0967",2,"https://pubs.aip.org/aip/app"],
-  [20,"Advanced Optical Materials","2195-1071","2195-1071",2,"https://onlinelibrary.wiley.com/journal/21951071"],
-  [21,"<b>Journal of Lightwave Technology</b>","0733-8724","1558-2213",2,"https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=50"],
-  [22,"Chip","2709-4723","2772-2724",2,"https://www.sciencedirect.com/journal/chip"],
-  [23,"Journal of Optical Communications and Networking","1943-0620","1943-0639",2,"https://opg.optica.org/jocn/home.cfm"],
-  [24,"Optics and Laser Technology","0030-3992","1879-2545",2,"https://www.sciencedirect.com/journal/optics-and-laser-technology"],
-  [25,"IEEE Journal of Selected Topics in Quantum Electronics","1077-260X","1558-4542",2,"https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=2944"],
-  [26,"Image and Vision Computing","0262-8856","1872-8138",2,"https://www.sciencedirect.com/journal/image-and-vision-computing"],
-  [27,"Advanced Photonics Nexus","2791-1519","2791-1519",2,"https://www.spiedigitallibrary.org/journals/advanced-photonics-nexus"],
-  [28,"Optics and Lasers in Engineering","0143-8166","1873-0302",2,"https://www.sciencedirect.com/journal/optics-and-lasers-in-engineering"],
-  [29,"Journal of Physics: Photonics","2515-7647","2515-7647",2,"https://iopscience.iop.org/journal/2515-7647"],
-  [30,"IEEE Transactions on Terahertz Science and Technology","2156-342X","2156-3446",2,"https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=5503870"],
-  [31,"Biomedical Optics Express","2156-7085","2156-7085",2,"https://opg.optica.org/boe/home.cfm"],
-  [32,"Displays","0141-9382","1872-7387",2,"https://www.sciencedirect.com/journal/displays"],
-  [33,"<b>Photonic Sensors</b>","1674-9251","2190-7439",2,"https://www.springer.com/journal/13320"],
-  [34,"Neurophotonics","2329-423X","2329-4248",2,"https://www.spiedigitallibrary.org/journals/neurophotonics"],
-  [35,"Chinese Journal of Lasers","0258-7025","0258-7025",2,"https://www.cjlaser.net/"],
-  [36,"<b>Acta Optica Sinica</b>","0253-2239","0253-2239",2,"https://www.opticsjournal.net/"],
-  [37,"Journal of Biomedical Optics","1083-3668","1560-2281",3,"https://www.spiedigitallibrary.org/journals/journal-of-biomedical-optics"],
-  [38,"Physical Review A","2469-9926","2469-9934",3,"https://journals.aps.org/pra/"],
-  [39,"<b>Optics Express</b>","1094-4087","-",3,"https://opg.optica.org/oe/home.cfm"],
-  [40,"Optical Materials","0925-3467","1873-1252",3,"https://www.sciencedirect.com/journal/optical-materials"],
-  [41,"<b>Optics Letters</b>","0146-9592","1539-4794",3,"https://opg.optica.org/ol/home.cfm"],
-  [42,"Infrared Physics &amp; Technology","1350-4495","1879-0275",3,"https://www.sciencedirect.com/journal/infrared-physics-and-technology"],
-  [43,"Chinese Optics Letters","1671-7694","1671-7694",3,"https://www.osachina.net/"],
-  [44,"Journal of Luminescence","0022-2313","1872-7883",3,"https://www.sciencedirect.com/journal/journal-of-luminescence"],
-  [45,"Optical Switching and Networking","1573-4277","1872-9770",3,"https://www.sciencedirect.com/journal/optical-switching-and-networking"],
-  [46,"Advanced Photonics Research","2699-9293","2699-9293",3,"https://onlinelibrary.wiley.com/journal/26999293"],
-  [47,"Color Research and Application","0361-2317","1520-6378",3,"https://onlinelibrary.wiley.com/journal/15206378"],
-  [48,"Advanced Quantum Technologies","-","2511-9044",3,"https://onlinelibrary.wiley.com/journal/25119044"],
-  [49,"Journal of Synchrotron Radiation","0909-0495","1600-5775",3,"https://journals.iucr.org/s/"],
-  [50,"International Journal of Imaging Systems and Technology","0899-9457","1098-1098",3,"https://onlinelibrary.wiley.com/journal/10981098"],
-  [51,"Microelectronic Engineering","0167-9317","1873-5568",3,"https://www.sciencedirect.com/journal/microelectronic-engineering"],
-  [52,"Journal of Astronomical Telescopes, Instruments, and Systems","2329-4124","2329-4221",3,"https://www.spiedigitallibrary.org/journals/journal-of-astronomical-telescopes-instruments-and-systems"],
-  [53,"Leukos","1550-2724","1550-2716",3,"https://www.tandfonline.com/journals/ulks20"],
-  [54,"International Journal of Optomechatronics","1559-9612","1559-9620",3,"https://www.tandfonline.com/journals/uopt20"],
-  [55,"Lighting Research &amp; Technology","1477-1535","1477-0938",3,"https://journals.sagepub.com/home/lrt"],
-  [56,"Journal of Biophotonics","1864-063X","1864-0648",3,"https://onlinelibrary.wiley.com/journal/18640648"],
-  [57,"IEEE Photonics Technology Letters","1041-1135","1941-0174",3,"https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=68"],
-  [58,"Optical Fiber Technology","1068-5200","1095-9912",3,"https://www.sciencedirect.com/journal/optical-fiber-technology"],
-  [59,"Optics Communications","0030-4018","1873-0310",3,"https://www.sciencedirect.com/journal/optics-communications"],
-  [60,"Optical Materials Express","2159-3930","2159-3930",3,"https://opg.optica.org/ome/home.cfm"],
-  [61,"Journal of Innovative Optical Health Sciences","1793-5458","1793-7205",3,"https://www.worldscientific.com/worldscinet/jiohs"],
-  [62,"IEEE Photonics Journal","1943-0655","1943-0647",3,"https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=4563994"],
-  [63,"Ukrainian Journal of Physical Optics","1609-1833","-",3,"https://ujpo.org/"],
-  [64,"Applied Physics B: Lasers and Optics","0946-2171","1432-0649",3,"https://www.springer.com/journal/340"],
-  [65,"Photonics and Nanostructures: Fundamentals and Applications","1569-4410","1569-4429",3,"https://www.sciencedirect.com/journal/photonics-and-nanostructures-fundamentals-and-applications"],
-  [66,"IEEE Journal of Quantum Electronics","0018-9197","1558-1713",3,"https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=3"],
-  [67,"Fiber and Integrated Optics","0146-8030","1096-4681",3,"https://www.tandfonline.com/journals/ufio20"],
-  [68,"Journal of Quantitative Spectroscopy &amp; Radiative Transfer","0022-4073","1879-1352",3,"https://www.sciencedirect.com/journal/journal-of-quantitative-spectroscopy-and-radiative-transfer"],
-  [69,"Journal of Infrared, Millimeter, and Terahertz Waves","1866-6892","1866-6906",3,"https://www.springer.com/journal/10762"],
-  [70,"Journal of Optics","2040-8978","2040-8986",3,"https://iopscience.iop.org/journal/2040-8986"],
-  [71,"Chinese Optics","2097-1842","2097-1842",3,"https://www.chineseoptics.net.cn/"],
-  [72,"Laser &amp; Optoelectronics Progress","1006-4125","1006-4125",3,"https://www.opticsjournal.net/"],
-  [73,"Acta Photonica Sinica","1004-4213","1004-4213",3,"https://www.opticsjournal.net/"],
-  [74,"Journal of Infrared and Millimeter Waves","1001-9014","-",3,"http://journal.sitp.ac.cn/hwyhmb/"],
-  [75,"Optical and Quantum Electronics","0306-8919","1572-817X",4,"https://www.springer.com/journal/11082"],
-  [76,"Journal of the European Optical Society-Rapid Publications","1990-2573","1990-2573",4,"https://jeos.springeropen.com/"],
-  [77,"Journal of Optical Microsystems","-","2708-5260",4,"https://www.spiedigitallibrary.org/journals/journal-of-optical-microsystems"],
-  [78,"ACS Applied Optical Materials","2771-9855","2771-9855",4,"https://pubs.acs.org/journal/aaoma6"],
-  [79,"Journal of Physics B: Atomic, Molecular and Optical Physics","0953-4075","1361-6455",4,"https://iopscience.iop.org/journal/0953-4075"],
-  [80,"Results in Optics","-","2666-9501",4,"https://www.sciencedirect.com/journal/results-in-optics"],
-  [81,"Micro and Nano Engineering","-","2590-0072",4,"https://www.sciencedirect.com/journal/micro-and-nano-engineering"],
-  [82,"Journal of X-Ray Science and Technology","0895-3996","1095-9114",4,"https://www.iospress.com/catalog/journals/journal-of-x-ray-science-and-technology"],
-  [83,"Photonics","-","2304-6732",4,"https://www.mdpi.com/journal/photonics"],
-  [84,"Journal of Optics-India","0972-8821","0974-6900",4,"https://www.springer.com/journal/12596"],
-  [85,"Journal of the Optical Society of America B","0740-3224","1520-8540",4,"https://opg.optica.org/josab/home.cfm"],
-  [86,"Journal of the Optical Society of America A","1084-7529","1520-8532",4,"https://opg.optica.org/josaa/home.cfm"],
-  [87,"Journal of Micro-Nanopatterning, Materials, and Metrology","1932-5150","2708-8340",4,"https://www.spiedigitallibrary.org/journals/journal-of-micro-nanopatterning-materials-and-metrology"],
-  [88,"International Journal of Photoenergy","1110-662X","1687-529X",4,"https://www.hindawi.com/journals/ijp/"],
-  [89,"Applied Optics","1559-128X","2155-3165",4,"https://opg.optica.org/ao/home.cfm"],
-  [90,"Photonic Network Communications","1387-974X","1572-8188",4,"https://www.springer.com/journal/11107"],
-  [91,"Advanced Optical Technologies","2192-8576","2192-8584",4,"https://www.degruyter.com/journal/key/aot/html"],
-  [92,"Journal of the Society for Information Display","1071-0922","1938-3657",4,"https://onlinelibrary.wiley.com/journal/19383657"],
-  [93,"European Physical Journal D","1434-6060","1434-6079",4,"https://www.springer.com/journal/10053"],
-  [94,"Journal of Laser Applications","1042-346X","1938-1387",4,"https://pubs.aip.org/lia/jla"],
-  [95,"Optics","-","2673-3269",4,"https://www.mdpi.com/journal/optics"],
-  [96,"Laser Physics Letters","1612-2011","1612-202X",4,"https://iopscience.iop.org/journal/1612-202X"],
-  [97,"IET Optoelectronics","1751-8768","1751-8776",4,"https://ietresearch.onlinelibrary.wiley.com/journal/17518776"],
-  [98,"Optics Continuum","-","2770-0208",4,"https://opg.optica.org/optcon/home.cfm"],
-  [99,"Laser Physics","1054-660X","1555-6611",4,"https://iopscience.iop.org/journal/1555-6611"],
-  [100,"Journal of Nonlinear Optical Physics &amp; Materials","0218-8635","1793-6624",4,"https://www.worldscientific.com/worldscinet/jnopm"],
-  [101,"Optical Review","1340-6000","1349-9432",4,"https://www.springer.com/journal/10043"],
-  [102,"International Journal of Optics","1687-9384","1687-9392",4,"https://www.hindawi.com/journals/ijo/"],
-  [103,"Optical Engineering","0091-3286","1560-2303",4,"https://www.spiedigitallibrary.org/journals/optical-engineering"],
-  [104,"Microwave and Optical Technology Letters","0895-2477","1098-2760",4,"https://onlinelibrary.wiley.com/journal/10982760"],
-  [105,"Journal of Photonics for Energy","1947-7988","1947-7988",4,"https://www.spiedigitallibrary.org/journals/journal-of-photonics-for-energy"],
-  [106,"Computer Optics","0134-2452","2412-6179",4,"https://computeroptics.ru/eng/"],
-  [107,"Journal of Electronic Imaging","1017-9909","1560-229X",4,"https://www.spiedigitallibrary.org/journals/journal-of-electronic-imaging"],
-  [108,"Journal of Russian Laser Research","1071-2836","1573-8760",4,"https://www.springer.com/journal/10946"],
-  [109,"Opto-Electronics Review","1230-3402","1896-3757",4,"https://www.sciencedirect.com/journal/opto-electronics-review"],
-  [110,"Optical Memory and Neural Networks","1060-992X","1934-7898",4,"https://www.springer.com/journal/11018"],
-  [111,"Atmospheric and Oceanic Optics","1024-8560","2070-0393",4,"https://www.springer.com/journal/10492"],
-  [112,"Journal of Nanophotonics","1934-2608","-",4,"https://www.spiedigitallibrary.org/journals/journal-of-nanophotonics"],
-  [113,"Current Optics and Photonics","2508-7266","2508-7274",4,"https://www.copp.or.kr/"],
-  [114,"Optoelectronics Letters","1673-1905","1993-5013",4,"https://www.springer.com/journal/11801"],
-  [115,"Journal of Modern Optics","0950-0340","1362-3044",4,"https://www.tandfonline.com/journals/tmop20"],
-  [116,"Journal of Optical Technology","1070-9762","1091-0786",4,"https://opg.optica.org/jot/home.cfm"],
-  [117,"Journal of Laser Micro Nanoengineering","1880-0688","1880-0688",4,"https://www.jlps.gr.jp/jlmn/"],
-  [118,"Photonics Letters of Poland","2080-2242","2080-2242",4,"https://photonics.pl/PLP/"],
-  [119,"Optica Applicata","0078-5466","1899-7015",4,"https://www.opticaapplicata.pwr.edu.pl/"],
-  [120,"Lasers in Engineering","0898-1507","1029-029X",4,"https://www.oldcitypublishing.com/journals/lie-home/"],
-  [121,"Light &amp; Engineering","0236-2945","-",4,"https://www.ltj.ru/en/"],
-  [122,"Journal of Optoelectronics and Advanced Materials","1454-4164","1841-7132",4,"https://joam.inoe.ro/"],
-  [123,"Optics and Spectroscopy","0030-400X","1562-6911",4,"https://www.springer.com/journal/11766"],
-  [124,"Optoelectronics and Advanced Materials-Rapid Communications","1842-6573","2065-3824",4,"https://oam-rc.inoe.ro/"],
-  [125,"Optica Pura y Aplicada","0030-3917","2171-8814",4,"https://www.sedoptica.es/index.php/opa"],
-  [126,"Korean Journal of Optics and Photonics","1225-6285","2287-321X",4,"https://www.optics.or.kr/"]
+  [1, "eLight", "2097-1710", "2662-8643", 1, "https://www.springer.com/journal/43593"],
+  [2, "Advances in Optics and Photonics", "1943-8206", "-", 1, "https://opg.optica.org/aop/home.cfm"],
+  [3, "Nature Photonics", "1749-4885", "1749-4893", 1, "https://www.nature.com/nphoton/"],
+  [4, "<b>Light: Science &amp; Applications</b>", "2095-5545", "2047-7538", 1, "https://www.nature.com/lsa/"],
+  [5, "PhotoniX", "-", "2662-1991", 1, "https://www.springer.com/journal/43074"],
+  [6, "Opto-Electronic Science", "2097-0382", "2097-4000", 1, "https://www.oejournal.org/oes"],
+  [7, "Advanced Photonics", "-", "2577-5421", 1, "https://www.spiedigitallibrary.org/journals/advanced-photonics"],
+  [8, "Opto-Electronic Advances", "2096-4579", "2097-3993", 1, "https://www.oejournal.org/oea"],
+  [9, "Progress in Quantum Electronics", "0079-6727", "1873-1627", 1, "https://www.sciencedirect.com/journal/progress-in-quantum-electronics"],
+  [10, "Optica", "2334-2536", "2334-2536", 1, "https://opg.optica.org/optica/home.cfm"],
+  [11, "<b>Light: Advanced Manufacturing</b>", "2689-9620", "2831-4093", 1, "https://www.light-am.com/"],
+  [12, "Photonics Research", "2327-9125", "2327-9125", 1, "https://opg.optica.org/prj/home.cfm"],
+  [13, "<b>Laser &amp; Photonics Reviews</b>", "1863-8880", "1863-8899", 1, "https://onlinelibrary.wiley.com/journal/18638899"],
+  [14, "Ultrafast Science", "2097-0331", "2765-8791", 1, "https://spj.science.org/journal/ultrafastscience"],
+
+  [15, "High Power Laser Science and Engineering", "2095-4719", "2052-3289", 2, "https://www.cambridge.org/core/journals/high-power-laser-science-and-engineering"],
+  [16, "ACS Photonics", "2330-4022", "-", 2, "https://pubs.acs.org/journal/apchd5"],
+  [17, "EPJ Quantum Technology", "2662-4400", "2196-0763", 2, "https://epjquantumtechnology.springeropen.com/"],
+  [18, "Nanophotonics", "2192-8606", "2192-8614", 2, "https://www.degruyter.com/journal/key/nanoph/html"],
+  [19, "APL Photonics", "2378-0967", "2378-0967", 2, "https://pubs.aip.org/aip/app"],
+  [20, "Advanced Optical Materials", "2195-1071", "2195-1071", 2, "https://onlinelibrary.wiley.com/journal/21951071"],
+  [21, "<b>Journal of Lightwave Technology</b>", "0733-8724", "1558-2213", 2, "https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=50"],
+  [22, "Chip", "2709-4723", "2772-2724", 2, "https://www.sciencedirect.com/journal/chip"],
+  [23, "Journal of Optical Communications and Networking", "1943-0620", "1943-0639", 2, "https://opg.optica.org/jocn/home.cfm"],
+  [24, "Optics and Laser Technology", "0030-3992", "1879-2545", 2, "https://www.sciencedirect.com/journal/optics-and-laser-technology"],
+  [25, "IEEE Journal of Selected Topics in Quantum Electronics", "1077-260X", "1558-4542", 2, "https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=2944"],
+  [26, "Image and Vision Computing", "0262-8856", "1872-8138", 2, "https://www.sciencedirect.com/journal/image-and-vision-computing"],
+  [27, "Advanced Photonics Nexus", "2791-1519", "2791-1519", 2, "https://www.spiedigitallibrary.org/journals/advanced-photonics-nexus"],
+  [28, "Optics and Lasers in Engineering", "0143-8166", "1873-0302", 2, "https://www.sciencedirect.com/journal/optics-and-lasers-in-engineering"],
+  [29, "Journal of Physics: Photonics", "2515-7647", "2515-7647", 2, "https://iopscience.iop.org/journal/2515-7647"],
+  [30, "IEEE Transactions on Terahertz Science and Technology", "2156-342X", "2156-3446", 2, "https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=5503870"],
+  [31, "Biomedical Optics Express", "2156-7085", "2156-7085", 2, "https://opg.optica.org/boe/home.cfm"],
+  [32, "Displays", "0141-9382", "1872-7387", 2, "https://www.sciencedirect.com/journal/displays"],
+  [33, "<b>Photonic Sensors</b>", "1674-9251", "2190-7439", 2, "https://www.springer.com/journal/13320"],
+  [34, "Neurophotonics", "2329-423X", "2329-4248", 2, "https://www.spiedigitallibrary.org/journals/neurophotonics"],
+  [35, "Chinese Journal of Lasers", "0258-7025", "0258-7025", 2, "https://www.cjlaser.net/"],
+  [36, "<b>Acta Optica Sinica</b>", "0253-2239", "0253-2239", 2, "https://www.opticsjournal.net/"],
+
+  [37, "Journal of Biomedical Optics", "1083-3668", "1560-2281", 3, "https://www.spiedigitallibrary.org/journals/journal-of-biomedical-optics"],
+  [38, "Physical Review A", "2469-9926", "2469-9934", 3, "https://journals.aps.org/pra/"],
+  [39, "<b>Optics Express</b>", "1094-4087", "-", 3, "https://opg.optica.org/oe/home.cfm"],
+  [40, "Optical Materials", "0925-3467", "1873-1252", 3, "https://www.sciencedirect.com/journal/optical-materials"],
+  [41, "<b>Optics Letters</b>", "0146-9592", "1539-4794", 3, "https://opg.optica.org/ol/home.cfm"],
+  [42, "Infrared Physics &amp; Technology", "1350-4495", "1879-0275", 3, "https://www.sciencedirect.com/journal/infrared-physics-and-technology"],
+  [43, "Chinese Optics Letters", "1671-7694", "1671-7694", 3, "https://www.osachina.net/"],
+  [44, "Journal of Luminescence", "0022-2313", "1872-7883", 3, "https://www.sciencedirect.com/journal/journal-of-luminescence"],
+  [45, "Optical Switching and Networking", "1573-4277", "1872-9770", 3, "https://www.sciencedirect.com/journal/optical-switching-and-networking"],
+  [46, "Advanced Photonics Research", "2699-9293", "2699-9293", 3, "https://onlinelibrary.wiley.com/journal/26999293"],
+  [47, "Color Research and Application", "0361-2317", "1520-6378", 3, "https://onlinelibrary.wiley.com/journal/15206378"],
+  [48, "Advanced Quantum Technologies", "-", "2511-9044", 3, "https://onlinelibrary.wiley.com/journal/25119044"],
+  [49, "Journal of Synchrotron Radiation", "0909-0495", "1600-5775", 3, "https://journals.iucr.org/s/"],
+  [50, "International Journal of Imaging Systems and Technology", "0899-9457", "1098-1098", 3, "https://onlinelibrary.wiley.com/journal/10981098"],
+  [51, "Microelectronic Engineering", "0167-9317", "1873-5568", 3, "https://www.sciencedirect.com/journal/microelectronic-engineering"],
+  [52, "Journal of Astronomical Telescopes, Instruments, and Systems", "2329-4124", "2329-4221", 3, "https://www.spiedigitallibrary.org/journals/journal-of-astronomical-telescopes-instruments-and-systems"],
+  [53, "Leukos", "1550-2724", "1550-2716", 3, "https://www.tandfonline.com/journals/ulks20"],
+  [54, "International Journal of Optomechatronics", "1559-9612", "1559-9620", 3, "https://www.tandfonline.com/journals/uopt20"],
+  [55, "Lighting Research &amp; Technology", "1477-1535", "1477-0938", 3, "https://journals.sagepub.com/home/lrt"],
+  [56, "Journal of Biophotonics", "1864-063X", "1864-0648", 3, "https://onlinelibrary.wiley.com/journal/18640648"],
+  [57, "IEEE Photonics Technology Letters", "1041-1135", "1941-0174", 3, "https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=68"],
+  [58, "Optical Fiber Technology", "1068-5200", "1095-9912", 3, "https://www.sciencedirect.com/journal/optical-fiber-technology"],
+  [59, "Optics Communications", "0030-4018", "1873-0310", 3, "https://www.sciencedirect.com/journal/optics-communications"],
+  [60, "Optical Materials Express", "2159-3930", "2159-3930", 3, "https://opg.optica.org/ome/home.cfm"],
+  [61, "Journal of Innovative Optical Health Sciences", "1793-5458", "1793-7205", 3, "https://www.worldscientific.com/worldscinet/jiohs"],
+  [62, "IEEE Photonics Journal", "1943-0655", "1943-0647", 3, "https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=4563994"],
+  [63, "Ukrainian Journal of Physical Optics", "1609-1833", "-", 3, "https://ujpo.org/"],
+  [64, "Applied Physics B: Lasers and Optics", "0946-2171", "1432-0649", 3, "https://www.springer.com/journal/340"],
+  [65, "Photonics and Nanostructures: Fundamentals and Applications", "1569-4410", "1569-4429", 3, "https://www.sciencedirect.com/journal/photonics-and-nanostructures-fundamentals-and-applications"],
+  [66, "IEEE Journal of Quantum Electronics", "0018-9197", "1558-1713", 3, "https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=3"],
+  [67, "Fiber and Integrated Optics", "0146-8030", "1096-4681", 3, "https://www.tandfonline.com/journals/ufio20"],
+  [68, "Journal of Quantitative Spectroscopy &amp; Radiative Transfer", "0022-4073", "1879-1352", 3, "https://www.sciencedirect.com/journal/journal-of-quantitative-spectroscopy-and-radiative-transfer"],
+  [69, "Journal of Infrared, Millimeter, and Terahertz Waves", "1866-6892", "1866-6906", 3, "https://www.springer.com/journal/10762"],
+  [70, "Journal of Optics", "2040-8978", "2040-8986", 3, "https://iopscience.iop.org/journal/2040-8986"],
+  [71, "Chinese Optics", "2097-1842", "2097-1842", 3, "https://www.chineseoptics.net.cn/"],
+  [72, "Laser &amp; Optoelectronics Progress", "1006-4125", "1006-4125", 3, "https://www.opticsjournal.net/"],
+  [73, "Acta Photonica Sinica", "1004-4213", "1004-4213", 3, "https://www.opticsjournal.net/"],
+  [74, "Journal of Infrared and Millimeter Waves", "1001-9014", "-", 3, "http://journal.sitp.ac.cn/hwyhmb/"],
+
+  [75, "Optical and Quantum Electronics", "0306-8919", "1572-817X", 4, "https://www.springer.com/journal/11082"],
+  [76, "Journal of the European Optical Society-Rapid Publications", "1990-2573", "1990-2573", 4, "https://jeos.springeropen.com/"],
+  [77, "Journal of Optical Microsystems", "-", "2708-5260", 4, "https://www.spiedigitallibrary.org/journals/journal-of-optical-microsystems"],
+  [78, "ACS Applied Optical Materials", "2771-9855", "2771-9855", 4, "https://pubs.acs.org/journal/aaoma6"],
+  [79, "Journal of Physics B: Atomic, Molecular and Optical Physics", "0953-4075", "1361-6455", 4, "https://iopscience.iop.org/journal/0953-4075"],
+  [80, "Results in Optics", "-", "2666-9501", 4, "https://www.sciencedirect.com/journal/results-in-optics"],
+  [81, "Micro and Nano Engineering", "-", "2590-0072", 4, "https://www.sciencedirect.com/journal/micro-and-nano-engineering"],
+  [82, "Journal of X-Ray Science and Technology", "0895-3996", "1095-9114", 4, "https://www.iospress.com/catalog/journals/journal-of-x-ray-science-and-technology"],
+  [83, "Photonics", "-", "2304-6732", 4, "https://www.mdpi.com/journal/photonics"],
+  [84, "Journal of Optics-India", "0972-8821", "0974-6900", 4, "https://www.springer.com/journal/12596"],
+  [85, "Journal of the Optical Society of America B", "0740-3224", "1520-8540", 4, "https://opg.optica.org/josab/home.cfm"],
+  [86, "Journal of the Optical Society of America A", "1084-7529", "1520-8532", 4, "https://opg.optica.org/josaa/home.cfm"],
+  [87, "Journal of Micro-Nanopatterning, Materials, and Metrology", "1932-5150", "2708-8340", 4, "https://www.spiedigitallibrary.org/journals/journal-of-micro-nanopatterning-materials-and-metrology"],
+  [88, "International Journal of Photoenergy", "1110-662X", "1687-529X", 4, "https://www.hindawi.com/journals/ijp/"],
+  [89, "Applied Optics", "1559-128X", "2155-3165", 4, "https://opg.optica.org/ao/home.cfm"],
+  [90, "Photonic Network Communications", "1387-974X", "1572-8188", 4, "https://www.springer.com/journal/11107"],
+  [91, "Advanced Optical Technologies", "2192-8576", "2192-8584", 4, "https://www.degruyter.com/journal/key/aot/html"],
+  [92, "Journal of the Society for Information Display", "1071-0922", "1938-3657", 4, "https://onlinelibrary.wiley.com/journal/19383657"],
+  [93, "European Physical Journal D", "1434-6060", "1434-6079", 4, "https://www.springer.com/journal/10053"],
+  [94, "Journal of Laser Applications", "1042-346X", "1938-1387", 4, "https://pubs.aip.org/lia/jla"],
+  [95, "Optics", "-", "2673-3269", 4, "https://www.mdpi.com/journal/optics"],
+  [96, "Laser Physics Letters", "1612-2011", "1612-202X", 4, "https://iopscience.iop.org/journal/1612-202X"],
+  [97, "IET Optoelectronics", "1751-8768", "1751-8776", 4, "https://ietresearch.onlinelibrary.wiley.com/journal/17518776"],
+  [98, "Optics Continuum", "-", "2770-0208", 4, "https://opg.optica.org/optcon/home.cfm"],
+  [99, "Laser Physics", "1054-660X", "1555-6611", 4, "https://iopscience.iop.org/journal/1555-6611"],
+  [100, "Journal of Nonlinear Optical Physics &amp; Materials", "0218-8635", "1793-6624", 4, "https://www.worldscientific.com/worldscinet/jnopm"],
+  [101, "Optical Review", "1340-6000", "1349-9432", 4, "https://www.springer.com/journal/10043"],
+  [102, "International Journal of Optics", "1687-9384", "1687-9392", 4, "https://www.hindawi.com/journals/ijo/"],
+  [103, "Optical Engineering", "0091-3286", "1560-2303", 4, "https://www.spiedigitallibrary.org/journals/optical-engineering"],
+  [104, "Microwave and Optical Technology Letters", "0895-2477", "1098-2760", 4, "https://onlinelibrary.wiley.com/journal/10982760"],
+  [105, "Journal of Photonics for Energy", "1947-7988", "1947-7988", 4, "https://www.spiedigitallibrary.org/journals/journal-of-photonics-for-energy"],
+  [106, "Computer Optics", "0134-2452", "2412-6179", 4, "https://computeroptics.ru/eng/"],
+  [107, "Journal of Electronic Imaging", "1017-9909", "1560-229X", 4, "https://www.spiedigitallibrary.org/journals/journal-of-electronic-imaging"],
+  [108, "Journal of Russian Laser Research", "1071-2836", "1573-8760", 4, "https://www.springer.com/journal/10946"],
+  [109, "Opto-Electronics Review", "1230-3402", "1896-3757", 4, "https://www.sciencedirect.com/journal/opto-electronics-review"],
+  [110, "Optical Memory and Neural Networks", "1060-992X", "1934-7898", 4, "https://www.springer.com/journal/11018"],
+  [111, "Atmospheric and Oceanic Optics", "1024-8560", "2070-0393", 4, "https://www.springer.com/journal/10492"],
+  [112, "Journal of Nanophotonics", "1934-2608", "-", 4, "https://www.spiedigitallibrary.org/journals/journal-of-nanophotonics"],
+  [113, "Current Optics and Photonics", "2508-7266", "2508-7274", 4, "https://www.copp.or.kr/"],
+  [114, "Optoelectronics Letters", "1673-1905", "1993-5013", 4, "https://www.springer.com/journal/11801"],
+  [115, "Journal of Modern Optics", "0950-0340", "1362-3044", 4, "https://www.tandfonline.com/journals/tmop20"],
+  [116, "Journal of Optical Technology", "1070-9762", "1091-0786", 4, "https://opg.optica.org/jot/home.cfm"],
+  [117, "Journal of Laser Micro Nanoengineering", "1880-0688", "1880-0688", 4, "https://www.jlps.gr.jp/jlmn/"],
+  [118, "Photonics Letters of Poland", "2080-2242", "2080-2242", 4, "https://photonics.pl/PLP/"],
+  [119, "Optica Applicata", "0078-5466", "1899-7015", 4, "https://www.opticaapplicata.pwr.edu.pl/"],
+  [120, "Lasers in Engineering", "0898-1507", "1029-029X", 4, "https://www.oldcitypublishing.com/journals/lie-home/"],
+  [121, "Light &amp; Engineering", "0236-2945", "-", 4, "https://www.ltj.ru/en/"],
+  [122, "Journal of Optoelectronics and Advanced Materials", "1454-4164", "1841-7132", 4, "https://joam.inoe.ro/"],
+  [123, "Optics and Spectroscopy", "0030-400X", "1562-6911", 4, "https://www.springer.com/journal/11766"],
+  [124, "Optoelectronics and Advanced Materials-Rapid Communications", "1842-6573", "2065-3824", 4, "https://oam-rc.inoe.ro/"],
+  [125, "Optica Pura y Aplicada", "0030-3917", "2171-8814", 4, "https://www.sedoptica.es/index.php/opa"],
+  [126, "Korean Journal of Optics and Photonics", "1225-6285", "2287-321X", 4, "https://www.optics.or.kr/"],
+
+  // Added back to complete the 129-journal version
+  [127, "Advanced Devices &amp; Instrumentation", "-", "2767-9713", 2, "https://spj.science.org/journal/adi"],
+  [128, "Optica Quantum", "-", "2837-6714", 2, "https://opg.optica.org/opticaq/"],
+  [129, "Frontiers in Photonics", "-", "2673-6853", 4, "https://www.frontiersin.org/journals/photonics"]
 ];
 
 let activeZone = 'all';
